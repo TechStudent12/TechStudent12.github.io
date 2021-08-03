@@ -944,7 +944,7 @@ textarea {
 }
 .image-holder {
   margin-top: 4%;	
-  background-image: url("../MDS/imgBackgroundFaq.png");
+  background-image: url("imgBackgroundFaq.png");
   background-size: cover;
   min-width: 100%; 
   min-height: 100%;
