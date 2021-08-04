@@ -967,3 +967,21 @@ body {
 #platinumDiv #interior, #platinumDiv2 #exterior {
   color: white;
 }
+#imageDiv9 {
+  background: white;
+  position: relative;
+  padding: 4%;
+}
+#imgMetal {
+  margin-top: -10%;
+  width: 100%;
+}
+#imageCard3 {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  width: 80%;
+  height: 60vh;
+  background: white;
+  padding: 4%;
+}
