@@ -985,3 +985,31 @@ body {
   background: white;
   padding: 4%;
 }
+#imgPressure {
+  margin-top: -10%;
+  width: 100%;
+  float: right;
+}
+#imageCard4 {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  width: 80%;
+  height: 60vh;
+  background: white;
+  padding: 4%;
+}
+#imageCard4 p {
+  margin-top: 8%;
+}
+#imageCard4 h1 {
+  color: red;
+  font-size: 40px;
+  margin-left: -20%;
+  margin-top: -30%;
+  margin-bottom: 12%;
+  font-family: 'Fjalla One', sans-serif;';
+}
+#imageCard4 p .fa-check-circle {
+  color: green;
+}
