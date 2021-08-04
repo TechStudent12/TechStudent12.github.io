@@ -1,10 +1,11 @@
 /*  Top Banner  */
 #banner {
-    background-color: red;
+    background-color: #1b1b1b;
     color: white;
-    padding: 0.5%;
-    font-size: 15px;
-    text-align: right;
+    padding: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 #emailBanner, #phoneBanner { 
   color: white;
@@ -12,7 +13,7 @@
   text-decoration: none;
 }
 #emailBanner:hover, #phoneBanner:hover { 
-  color: cyan;
+  color: #1b1b1b;
 }
 #instagram, #twitter, #facebook, #linkedin, #youtube {
     margin-left: 12px;
@@ -22,7 +23,7 @@
     margin-right: 1%;
 }
 #instagram:hover, #twitter:hover, #facebook:hover, #linkedin:hover, #youtube:hover {
-    color: cyan;
+    color: #1b1b1b;
     cursor: pointer;
 }
 /*  Top Banner  */
@@ -32,13 +33,17 @@
 ul li a.active-page {
   color: white;
   background-color: red;
+    border-radius: 10px;
 }
 nav{
     background-color: white;
-    text-align: right;
-    padding: 25px;
+    text-align: center;
+    padding: 20px;
     font-weight: bold;
     border-bottom: 1px solid black;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 nav li {
     display: inline-block;
@@ -47,22 +52,24 @@ nav li {
 }
 nav li a{
     font-size: 14px;
-    color: black;
-    padding: 8px;
+    color: #1b1b1b;
+    padding: 4px;
     text-decoration: none;
-    font-family: arial;
+    font-family: 'Poppins', sans-serif;
 }
 nav li a:hover{
     background-color: white;
     color: red;
 }
 #giftCard, #bookNow {
- font-family: 'Fjalla One', sans-serif;
- font-size: 16px;
+text-align: right;
+ font-family: 'Poppins', sans-serif;
+ font-size: 14px;
  border: 4px solid red;
  font-weight: bold;
  color: red;
  box-shadow: 2px 2px 4px black;
+    border-radius: 10px;
 }
 #giftCard:hover, #bookNow:hover {
  background-color: red;
@@ -70,15 +77,13 @@ nav li a:hover{
 }
 /*  Nav Items  */
 
-
 /*  Logo  */
 #logo{
     margin-left: 2%;
-    top: 0%; 
-    width:10%;
-    height:12%;
+    height:70px;
     overflow:hidden;
-    padding: 5px;
+    padding: 0px;
+    top: -20px;
 }
 #logo {
     position:absolute;
