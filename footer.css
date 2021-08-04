@@ -1,10 +1,14 @@
 #column2, #column1 {
- height: 32.5vh;
+     height: 220px;
  color: white;
 }
 #column3 {
  color: white;
- height: 32.5vh;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
 }
 .column {
   float: left;
@@ -15,8 +19,7 @@
     margin-left: 0%;
     top: 0;
     margin-top: 2%;
-    width: 70%;
-    height: 100%;
+    width: 40%;
 }
 #footer {
   display:table;
@@ -36,16 +39,15 @@
  padding-bottom: 20px;
 }
 #copyrightFooter {
- padding-top: 4%;
  padding-bottom: 2%;
  background-color: #080808;
  color: white;
  font-weight: bold;
  font-size: 15px;
+    text-align:center;
 }
 #pCopyright {
  margin-right: 4%;
- float: right;
 }
 * {
   box-sizing: border-box;
@@ -53,7 +55,6 @@
 .column4 {
   float: left;
   width: 50%;
-  padding: 10px;
 }
 #linkOne a, #linkTwo a {
  color: white;
@@ -61,4 +62,50 @@
 #linkOne a:hover, #linkTwo a:hover {
  color: red;
  cursor: pointer;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    font-style: normal;
+    font-weight: normal;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size:12px;
+    font-style: normal;
+    font-weight: normal;
+}
+#bannerIcon2 {
+ font-size: 25px;
+ color: red;
+ cursor: pointer;
+    text-align: center;
+}
+#submitSignup {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 4px solid red;
+    cursor: pointer;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    flex-wrap: wrap;
+    width: 90px;
+}
+#submitSignup:hover {
+ background-color: #1b1b1b;
+ border: 4px solid #1b1b1b;
+ color: white;
+}
+#emailInput {
+     width: 60%;
+    padding: 10px;
+}
+#emailInput {
+ border: 4px solid white;
+}
+#emailInput:focus {
+ border: 4px solid red;
+ outline: none;
 }
