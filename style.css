@@ -295,9 +295,6 @@ textarea {
   filter: grayscale(1);
 }
 
-
-
-
 #imagesH1 {
   font-family: 'Fjalla One', sans-serif;
   color: red;
@@ -718,12 +715,12 @@ body {
   padding: 12px;
 }
 #imageDiv4 {
-  background-image: url("imgFleet.png");
+  background-image: url("../images/imgFleet.png");
   background-size: cover;
   padding: 4%;
 }
 #imageDiv5 {
-  background-image: url("imgBoatDetailing.jpg");
+  background-image: url("../images/imgBoatDetailing.jpg");
   background-size: cover;
   position: relative;
   padding: 4%;
@@ -740,7 +737,7 @@ body {
   transition: all .3s linear;
 }
 #imageDiv6 {
-  background-image: url("../MDS/imgAircraftBackground.jpg");
+  background-image: url("../images/imgAircraftBackground.jpg");
   background-size: cover;
   position: relative;
   padding: 4%;
@@ -757,7 +754,7 @@ body {
   transition: all .3s linear;
 }
 #imageDiv7 {
-  background-image: url("../MDS/imgMotorhomeBackground.jpg");
+  background-image: url("../images/imgMotorhomeBackground.jpg");
   background-size: cover;
   position: relative;
   padding: 4%;
