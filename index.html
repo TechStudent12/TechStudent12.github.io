@@ -7,6 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="footer.css">
@@ -16,8 +19,8 @@
     <button onclick="topFunction()" id="myBtnTop" title="Go to top"><i class="fa fa-chevron-up"></i></button>
     <div id="banner"><p><a id="phoneBanner" href="tel:6134134336">(613)413-4336</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="emailBanner" href="mailto:info@mobiledetailsolutions.com">info@mobiledetailsolutions.com<a>&nbsp;&nbsp;&nbsp;&nbsp;<i id="twitter" class="fa fa-twitter" aria-hidden="true"></i>&nbsp;<i id="instagram" class="fa fa-instagram" aria-hidden="true"></i>&nbsp;<i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>&nbsp;<i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;<i id="youtube" class="fa fa-youtube"></i></p></div>
  <nav>
+     <img src="images/sLogo.png" id="logo">
    <ul>
-    <li><a id="imageLogo" href="index.html"><img src="images/logo.png" id="logo"></a></li>
     <li><div><a href="index.html"  class="active-page">HOME</a></div></li>
     <li><div><a href="#">ABOUT</a></div></li>
     <li><div id="drop">
@@ -227,7 +230,7 @@ var indexNow = 0;
 
 function moveForward(i) {
   var arrayName = ["Ms. Lorem R. Ipsum", "Mr. Lorem R. Ipsum", "Ms. Lorem E. Ipsum"];
-  var arrayImg = ["../images/imgTestPerson.jpg", "../images/imgTestPerson2.jpg", "../images/imgTestPerson3.jpg"];
+  var arrayImg = ["imgTestPerson.jpg", "imgTestPerson2.jpg", "imgTestPerson3.jpg"];
   var arrayDescriptions = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."];
   for(j = 0; j < arrayName.length; j++) {
       if(j === indexNow) {
