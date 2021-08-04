@@ -236,64 +236,12 @@ textarea {
  font-weight: bold;	
 }
 
-#emailInput {
- width: 90%;
- padding: 10px;
-}
-#emailInput {
- border: 4px solid white;
-}
-#emailInput:focus {
- border: 4px solid red;
- outline: none;
-}
 
-#bannerIcon2 {
- margin-left: 2%;
- font-size: 35px;
- color: red;
- cursor: pointer;
-}
-#submitSignup {
- padding: 10px;
- background-color: transparent;
- outline: none;
- color: white;
- border: 4px solid white;
- cursor: pointer;
- font-weight: bold;
- font-size: 15px;
- margin-top: 2%;
-}
-#submitSignup:hover {
- background-color: red;
- border: 4px solid red;
- color: white;
-}
-::-webkit-scrollbar {
-  width: 10px;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-track {
-  box-shadow: 0px; 
-  background-color: white;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-thumb:hover {
-  border-radius: 0px;
-  background: darkred; 
-}
-#imageLogo {
-  cursor: pointer;
-}
-#logo:hover {
-  filter: grayscale(1);
-}
+
+
+
+
+
 
 #imagesH1 {
   font-family: 'Fjalla One', sans-serif;
@@ -496,18 +444,6 @@ input[type="search"].dark::-webkit-search-cancel-button {
   text-align: left;
   font-family: 'Fjalla One', sans-serif;';
 }
-#productDiv3 {
-  margin-top: 14%;
-  width: 80%; 
-  color: red;
-  text-transform: uppercase;
-}
-#productDiv3 h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: left;
-  font-family: 'Fjalla One', sans-serif;';
-}
 #productDiv h1 {
   font-size: 50px;
   font-weight: bold;
@@ -536,8 +472,6 @@ input[type="search"].dark::-webkit-search-cancel-button {
 
   --border-color: #ccc;
   --border-color-selected: red; /*#007AFF*/
-  --border-color-selected3: silver; /*#007AFF*/
-  --border-color-selected4: gold; /*#007AFF*/
 
   --button-background-color: #eee;
   --button-text-color: #333;
@@ -590,18 +524,6 @@ body {
   border-radius: 5px;
 }
 
-.card--selected3 {
-  border-color: var(--border-color-selected3);
-  box-shadow: 0 0px 5px rgba(0,0,0,.3);
-  border-radius: 5px;
-}
-
-.card--selected4 {
-  border-color: var(--border-color-selected4);
-  box-shadow: 0 0px 5px rgba(0,0,0,.3);
-  border-radius: 5px;
-}
-
 .card__title {
   font-weight: 500;
   font-size: var(--font-size-large);
@@ -609,29 +531,6 @@ body {
   margin-bottom: var(--space-small);
   font-family: 'Fjalla One', sans-serif;';
 }
-
-.card__title2 {
-  font-weight: 500;
-  font-size: var(--font-size-large2);
-  color: red;
-  margin-bottom: var(--space-small);
-  font-family: 'Fjalla One', sans-serif;';
-}
-.card__title3 {
-  font-weight: 500;
-  font-size: var(--font-size-large2);
-  color: silver;
-  margin-bottom: var(--space-small);
-  font-family: 'Fjalla One', sans-serif;';
-}
-.card__title4 {
-  font-weight: 500;
-  font-size: var(--font-size-large2);
-  color: gold;
-  margin-bottom: var(--space-small);
-  font-family: 'Fjalla One', sans-serif;';
-}
-
 
 .card__price {
   font-weight: bold;
@@ -719,38 +618,8 @@ body {
   border: 1px solid transparent;
 }
 
-.card__button--selected2, 
-.card__button--selected2:hover,
-.card__button--selected2:active,
-.card__button--selected2:focus {
-  top: 0;
-  background: silver;
-  color: var(--button-text-color-selected);
-  box-shadow: none;
-  border: 1px solid transparent;
-}
-
-.card__button--selected3, 
-.card__button--selected3:hover,
-.card__button--selected3:active,
-.card__button--selected3:focus {
-  top: 0;
-  background: gold;
-  color: var(--button-text-color-selected);
-  box-shadow: none;
-  border: 1px solid transparent;
-}
-
 .card__button--selected:hover {
   background-color: darkred;
-}
-
-.card__button--selected2:hover {
-  background-color: darkgrey;
-}
-
-.card__button--selected3:hover {
-  background-color: goldenrod;
 }
 
 .card__button--disabled, 
@@ -794,68 +663,17 @@ body {
   padding: 12px;
 }
 #imageDiv4 {
-  background-image: url("../images/imgFleet.png");
+  background-image: url("imgFleet.png");
   background-size: cover;
   padding: 4%;
 }
 #imageDiv5 {
-  background-image: url("../images/imgBoatDetailing.jpg");
+  background-image: url("imgBoatDetailing.jpg");
   background-size: cover;
   position: relative;
   padding: 4%;
 }
 #imageDiv5:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0, 0.5);
-  transition: all .3s linear;
-}
-#imageDiv6 {
-  background-image: url("../images/imgAircraftBackground.jpg");
-  background-size: cover;
-  position: relative;
-  padding: 4%;
-}
-#imageDiv6:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0, 0.5);
-  transition: all .3s linear;
-}
-#imageDiv7 {
-  background-image: url("../images/imgMotorhomeBackground.jpg");
-  background-size: cover;
-  position: relative;
-  padding: 4%;
-}
-#imageDiv7:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0, 0.5);
-  transition: all .3s linear;
-}
-#imageDiv8 {
-  background-image: url("../images/imgCarDetailing.jpg");
-  background-size: cover;
-  position: relative;
-  padding: 4%;
-}
-#imageDiv8:before {
   content: "";
   display: block;
   position: absolute;
@@ -884,86 +702,4 @@ body {
   color: red;
   text-align: left;
   font-family: 'Fjalla One', sans-serif;
-}
-#VIP {
-  padding: 4%;
-  margin-top: 20%;
-  color: gold;
-  font-size: 50px;
-  text-align: left;
-  border: 4px solid white;
-  cursor: pointer;
-}
-#platinum {
-  padding: 4%;
-  color: silver;
-  margin-top: 33%;
-  font-size: 50px;
-  text-align: left;
-  border: 4px solid white;
-  cursor: pointer;
-}
-#Basic {
-  padding: 4%;
-  margin-top: 20%;
-  color: red;
-  font-size: 50px;
-  text-align: left;
-  border: 4px solid white;
-  cursor: pointer;
-}
-#imageCard2 p {
-  text-align: left;
-  margin-top: 5%;
-  font-size: 12px;
-  margin-left: 20%;
-}
-#interior {
-  color: silver;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 20%;
-}
-#exterior {
-  color: silver;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 20%;
-}
-#VIPDiv, #platinumDiv, #BasicDiv {
-  margin-left: 2%;
-  width: 45%;
-  height: 75vh;
-}
-#VIPDiv .fa-check-circle, #platinumDiv .fa-check-circle, #BasicDiv .fa-check-circle {
-  color: white;
-}
-#VIPDiv2 .fa-check-circle, #platinumDiv2 .fa-check-circle, #BasicDiv2 .fa-check-circle {
-  color: white;
-}
-#VIPDiv2, #platinumDiv2, #BasicDiv2 {
-  margin-left: 2%;
-  width: 45%;
-  height: 75vh;
-}
-#VIPDiv, #VIPDiv2 {
-  background-color: gold;
-  color: white;
-}
-#VIPDiv #interior, #VIPDiv2 #exterior {
-  color: white;
-}
-#BasicDiv, #BasicDiv2 {
-  background-color: red;
-  color: white;
-}
-#BasicDiv #interior, #BasicDiv2 #exterior {
-  color: white;
-}
-#platinumDiv, #platinumDiv2 {
-  background-color: silver;
-  color: white;
-}
-#platinumDiv #interior, #platinumDiv2 #exterior {
-  color: white;
 }
