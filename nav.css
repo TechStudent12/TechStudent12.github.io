@@ -1,6 +1,6 @@
 /*  Top Banner  */
 #banner {
-    background-color: #1b1b1b;
+    background-color: #FF5252;
     color: white;
     padding: 3px;
     font-size: 13px;
@@ -17,7 +17,6 @@
 }
 #instagram, #twitter, #facebook, #linkedin, #youtube {
     margin-left: 12px;
-    text-shadow: 2px 2px 2px black;
     font-size: 18px;
 }
 #youtube {
@@ -41,7 +40,6 @@ nav{
     text-align: center;
     padding: 20px;
     font-weight: bold;
-    border-bottom: 1px solid black;
     width: 100%;
     position: absolute;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -81,10 +79,10 @@ text-align: right;
 /*  Logo  */
 #logo{
     margin-left: 2%;
-    height:70px;
+    height:50px;
     overflow:hidden;
     padding: 0px;
-    top: -20px;
+    top: 0px;
 }
 #logo {
     position:absolute;
@@ -98,7 +96,7 @@ text-align: right;
   cursor: pointer;
 }
 #logo:hover {
-  filter: grayscale(1);
+  cursor:pointer;
 }
 /*  Logo  */
 

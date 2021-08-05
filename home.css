@@ -7,22 +7,22 @@
 }
 .column2 {
   float: left;
-  width: 60%;
+height: 400px;
+  width: 50%;
   padding: 0px;
-  height: 550px; 
-  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 100% 100%, 0 100%, 0 0);
+  /*clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 100% 100%, 0 100%, 0 0);*/
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 38% 50%);
 }
 .column33 {
   float: left;
-  width: 40%;
-  padding: 10px;
-  height: 550px; 
+    width: 45%;
+    margin-left: 5%;
+  padding: 10px; 
   color: black;
 }
 #imageDiv {
- width:100%;
  height: 100%;
- filter: brightness(50%);
+    width: 100%;
 }
 .row2:after {
   content: "";
@@ -39,21 +39,17 @@
  margin-bottom: 2%;
 }
 #bannerName {
- font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
  font-size: 45px;
  color: red;
- margin-top: 10%;
- text-align: left;
  padding: 30px;
  background-color: white;
  font-weight: bold;
 }
 #bannerText {
  margin-top: -2%;
- font-size: 20px;
- padding: 30px;
+ font-size: 16px;
  font-weight: normal;
- text-align: left;
  margin-bottom: 0%;
 }
 #bookNowAppoint, #contactUS {
@@ -76,7 +72,7 @@
  background-color: red;
 }
 #bookNowAppoint {
- margin-left: 5%;
+    margin-left: 30%;
 }
 
 
@@ -523,10 +519,8 @@
   background-color: red;
 }
 .image-holder {
-  margin-top: 4%;	
-  background-image: url("imgBackgroundFaq.png");
+  /*background-image: url("images/imgBackgroundFaq.png");*/
   background-size: cover;
-  min-width: 100%; 
   min-height: 100%;
   position: relative; 
   object-fit: cover;
@@ -543,16 +537,10 @@
   transition: all .3s linear;
 }
 #FAQsH1 {
-  font-size: 80px;
-  margin-top: 4%;
-  font-weight: bold;
   color: white;
   position: relative;
-  text-align: center;
-  padding: 3%;
+  padding: 1.5%;
   margin-bottom: -2%;
-  width: 100%;
-  font-family: 'Fjalla One', sans-serif;
 }
 .fa-question-circle {
   font-size: 200px;
@@ -578,4 +566,71 @@
 }
 .fa-google {
   font-weight: bold;
+}
+/* FAQ SECTION */
+#FAQLogo {
+  width: 10%;
+  margin-bottom: 0%;
+  padding: 0.2%;
+  background-color: white;
+  border-radius: 20%;
+}
+.collapsible {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+  padding: 15px;
+  width: 50%;
+  border: 4px solid white;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  position: relative; 
+  font-family: 'Poppins', sans-serif;
+border-radius: 10px;
+}
+.collapsible:after {
+    content: '\002B';
+    font-size: 50px;
+    top: -8px;
+    left: 90%;
+    position: absolute;
+    padding-top: -40px;
+}
+.active, .collapsible:hover, .collapsible2:hover {
+  border-color: red;
+  background-color: red;
+  color: white;
+}
+.active:after {
+  color: white;
+  content: "\2212";
+    font-size: 50px;
+    top: -8px;
+    left: 90%;
+    position: absolute;
+    padding-top: -40px;
+}
+.content {
+  width: 40%;
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: left;
+  background: white;
+  color: black;
+  position: relative;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+p2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
 }

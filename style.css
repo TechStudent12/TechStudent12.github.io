@@ -119,30 +119,7 @@ textarea {
  padding-bottom: 30px;
 }
 
-.collapsible {
-  background-color: white;
-  color: red;
-  cursor: pointer;
-  padding: 25px;
-  width: 70%;
-  border: 4px solid white;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  font-weight: bold;
-  position: relative; 
-  font-family: 'Fjalla One', sans-serif;
-}
-#FAQLogo {
-  width: 18%;
-  margin-bottom: 0%;
-  padding: 1.8%;
-  background-color: white;
-  border: 4px solid red;
-  border-radius: 50%;
-}
+
 #FAQLogo2 {
   width: 120%;
   margin-bottom: -10%;
@@ -167,19 +144,7 @@ textarea {
   position: relative;
   font-family: 'Fjalla One', sans-serif;
 }
-.active, .collapsible:hover, .collapsible2:hover {
-  border-color: white;
-  background-color: black;
-  color: white;
-}
 
-.collapsible:after {
-  content: '\002B';
-  color: red;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
 
 .collapsible2:after {
   content: '\002B';
@@ -189,25 +154,7 @@ textarea {
   margin-left: 5px;
 }
 
-.active:after {
-  color: white;
-  content: "\2212";
-}
 
-.content {
-  width: 70%;
-  padding: 18px;
-  display: none;
-  overflow: hidden;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  text-align: left;
-  font-size: 20px;
-  background: black;
-  color: white;
-  border: 4px solid black;
-  position: relative;
-}
 .content2 {
   width: 70%;
   padding: 16px;
