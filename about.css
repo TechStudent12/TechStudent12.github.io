@@ -1,0 +1,24 @@
+/* ABOUT PAGE CSS */ 
+
+#aboutH1 {
+  margin-top: 11%;
+  margin-bottom: 2%;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 19%;
+}
+#aboutText {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 19%;
+}
+#rightDiv4 {
+  padding-top: 8%;
+  float: left; 
+  height: 90vh;
+}
+#MDSimg {
+  margin-top: -5.5%;
+}
+
+/* END */
