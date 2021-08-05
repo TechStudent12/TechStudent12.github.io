@@ -38,7 +38,7 @@ ul li a.active-page {
 ul li a.active-page:hover {
   color: white;
   background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: no-drop;
 }
 nav{
