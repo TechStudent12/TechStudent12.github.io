@@ -113,6 +113,10 @@ text-align: right;
   cursor: pointer;
 }
 
+#drop a.active-page  {
+  border-radius: 0px;
+}
+
 #drop:hover #dropbtn {
   color: red;
 }
