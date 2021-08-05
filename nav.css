@@ -23,7 +23,7 @@
     margin-right: 1%;
 }
 #instagram:hover, #twitter:hover, #facebook:hover, #linkedin:hover, #youtube:hover {
-    color: red;
+    color: darkred;
     cursor: pointer;
 }
 /*  Top Banner  */
