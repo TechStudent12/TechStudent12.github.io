@@ -19,7 +19,10 @@
   height: 90vh;
 }
 #MDSimg {
-  margin-top: -5.5%;
+  margin-top: -5%;
+  width: 80%;
+  float: left;
+  margin-left: 8%;
 }
 
 /* END */
