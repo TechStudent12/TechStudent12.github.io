@@ -1,6 +1,6 @@
 /*  Top Banner  */
 #banner {
-    background-color: #1b1b1b;
+    background-color: #FF5252;
     color: white;
     padding: 3px;
     font-size: 13px;
@@ -13,17 +13,17 @@
   text-decoration: none;
 }
 #emailBanner:hover, #phoneBanner:hover { 
-  color: #1b1b1b;
+  color: red;
 }
 #instagram, #twitter, #facebook, #linkedin, #youtube {
     margin-left: 12px;
-    text-shadow: 2px 2px 2px black;
+    font-size: 18px;
 }
 #youtube {
     margin-right: 1%;
 }
 #instagram:hover, #twitter:hover, #facebook:hover, #linkedin:hover, #youtube:hover {
-    color: #1b1b1b;
+    color: red;
     cursor: pointer;
 }
 /*  Top Banner  */
@@ -40,7 +40,6 @@ nav{
     text-align: center;
     padding: 20px;
     font-weight: bold;
-    border-bottom: 1px solid black;
     width: 100%;
     position: absolute;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -80,10 +79,10 @@ text-align: right;
 /*  Logo  */
 #logo{
     margin-left: 2%;
-    height:70px;
+    height:50px;
     overflow:hidden;
     padding: 0px;
-    top: -20px;
+    top: 0px;
 }
 #logo {
     position:absolute;
@@ -92,6 +91,12 @@ text-align: right;
 * {
     padding: 0;
     margin: 0;
+}
+#imageLogo {
+  cursor: pointer;
+}
+#logo:hover {
+  cursor:pointer;
 }
 /*  Logo  */
 
@@ -110,11 +115,9 @@ text-align: right;
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 0px;
-  border: 4px solid cyan;
+  border-radius: 10px;
 }
 #myBtnTop:hover {
-  border: 4px solid darkred;
   background-color: darkred;
 }
 /* Button To Top */
