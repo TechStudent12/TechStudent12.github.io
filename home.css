@@ -78,12 +78,25 @@ height: 400px;
 
 /* Years Of Experience */
 .newColumn1 {
- width: 20%;
- float: left;
+width: 20%;
+    float: left;
+    font-size: 50px;
+    color: #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-right: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.newColumn1 p{
  font-size: 50px;
- color: red;
+ color: #1b1b1b;
+font-family: 'Poppins', sans-serif;
  font-weight: bold;
- border-right: 2px solid grey;
 }
 #content2 {
  margin-top: 4%;
