@@ -95,18 +95,8 @@ textarea {
  border: 2px solid red;
  padding: 4px;
 }
-#instagram3, #twitter3, #facebook3, #linkedin3, #youtube3 {
- border: 4px solid transparent;
- color: white;
- padding: 2.5%;
-}
 #instagram2:hover, #twitter2:hover, #facebook2:hover, #linkedin2:hover, #youtube2:hover {
  color: white;
- background: red;
-}
-#instagram3:hover, #twitter3:hover, #facebook3:hover, #linkedin3:hover, #youtube3:hover {
- color: white;
- border: 4px solid red;
  background: red;
 }
 #faqIcon {
