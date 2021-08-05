@@ -33,7 +33,12 @@
 ul li a.active-page {
   color: white;
   background-color: red;
-    border-radius: 10px;
+  border-radius: 10px;
+}
+ul li a.active-page:hover {
+  color: white;
+  background-color: red;
+  border-radius: 10px;
 }
 nav{
     background-color: white;
