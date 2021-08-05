@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 #emailBanner:hover, #phoneBanner:hover { 
-  color: red;
+  color: darkred;
 }
 #instagram, #twitter, #facebook, #linkedin, #youtube {
     margin-left: 12px;
