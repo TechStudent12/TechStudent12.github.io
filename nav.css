@@ -33,7 +33,7 @@
 ul li a.active-page {
   color: white;
   background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 ul li a.active-page:hover {
   color: white;
@@ -58,7 +58,7 @@ nav li {
 nav li a{
     font-size: 14px;
     color: #1b1b1b;
-    padding: 4px;
+    padding: 2%;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
