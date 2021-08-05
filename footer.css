@@ -121,5 +121,5 @@ p{
 #instagram3:hover, #twitter3:hover, #facebook3:hover, #linkedin3:hover, #youtube3:hover {
  color: red;
  border: 4px solid transparent;
- background: black;
+ background: transparent;
 }
