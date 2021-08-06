@@ -100,8 +100,7 @@ padding: 15px;
  padding: 2.5%;
 }
 #instagram2:hover, #twitter2:hover, #facebook2:hover, #linkedin2:hover, #youtube2:hover {
- color: white;
- background: red;
+  color: darkred;
 }
 #instagram3:hover, #twitter3:hover, #facebook3:hover, #linkedin3:hover, #youtube3:hover {
  color: white;
