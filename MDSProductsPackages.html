@@ -302,6 +302,9 @@ function activeButton(id){
   document.getElementById("platinumDiv2").style.display = "none";
   document.getElementById("BasicDiv2").style.display = "none";
   document.getElementById("VIPDiv2").style.display = "none";
+  document.getElementById("platinum").style.filter = "brightness(100%)";
+  document.getElementById("platinum").style.filter = "brightness(100%)";
+  document.getElementById("platinum").style.filter = "brightness(100%)";
   if(id == "VIPA") {
   	document.getElementById("VIP").style.backgroundColor = "gold";
   	document.getElementById("VIP").style.color = "white";
@@ -309,6 +312,7 @@ function activeButton(id){
   	document.getElementById("VIP").style.cursor = "no-drop";
         document.getElementById("VIPDiv").style.display = "block";
 	document.getElementById("VIPDiv2").style.display = "block";
+	document.getElementById("VIP").style.filter = "brightness(50%)";
   }
   if(id == "platinumA") {
   	document.getElementById("platinum").style.backgroundColor = "silver";
@@ -317,6 +321,7 @@ function activeButton(id){
   	document.getElementById("platinum").style.cursor = "no-drop";
         document.getElementById("platinumDiv").style.display = "block";
         document.getElementById("platinumDiv2").style.display = "block";
+	document.getElementById("platinum").style.filter = "brightness(50%)";
   }
   if(id == "BasicA") {
   	document.getElementById("Basic").style.backgroundColor = "red";
@@ -325,6 +330,7 @@ function activeButton(id){
   	document.getElementById("Basic").style.cursor = "no-drop";
         document.getElementById("BasicDiv").style.display = "block";
         document.getElementById("BasicDiv2").style.display = "block";
+	document.getElementById("Basic").style.filter = "brightness(50%)";
   }
 }
 </script>
