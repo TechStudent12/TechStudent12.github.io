@@ -486,6 +486,7 @@ body {
   margin-left: 2%;
   width: 45%;
   height: 75vh;
+  border-radius: 10px;
 }
 #VIPDiv .fa-check-circle, #platinumDiv .fa-check-circle, #BasicDiv .fa-check-circle {
   color: white;
@@ -494,9 +495,10 @@ body {
   color: white;
 }
 #VIPDiv2, #platinumDiv2, #BasicDiv2 {
-  margin-left: 2%;
+  margin-left: -2%;
   width: 45%;
   height: 75vh;
+  border-radius: 10px;
 }
 #VIPDiv, #VIPDiv2 {
   background-color: gold;
