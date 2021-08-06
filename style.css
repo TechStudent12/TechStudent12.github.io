@@ -232,6 +232,23 @@ textarea {
 
 /* End */
 
+/* Decal and Pressure Washing Pages CSS */
+
+#productDiv4 {
+  margin-top: 20%;
+  width: 80%; 
+  color: red;
+  text-transform: uppercase;
+}
+#productDiv4 h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Fjalla One', sans-serif;';
+}
+
+/* END */
+
 
 
 
