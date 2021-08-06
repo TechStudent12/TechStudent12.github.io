@@ -214,7 +214,7 @@
       </center>
   </div>
   <div class="column" id="column3" style="background-color: #080808;">
-    <h2 id="columnH2" style="margin-top: 5%; margin-bottom: 5%;">STAY CONNECTED</h2>
+    <h2 id="columnH2" style="margin-top: 3.5%; margin-bottom: 3.5%;">STAY CONNECTED</h2>
     <p style="margin-bottom: 5%; width: 90%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><input type="email" id="emailInput" name="email" placeholder="Enter your email..."><br><br><button type="submit" id="submitSignup">SIGN UP</button>
   </div>
  </div>
@@ -234,42 +234,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-
-
-var indexNow = 0;
-
-function moveForward(i) {
-  var arrayName = ["Ms. Lorem R. Ipsum", "Mr. Lorem R. Ipsum", "Ms. Lorem E. Ipsum"];
-  var arrayImg = ["imgTestPerson.jpg", "imgTestPerson2.jpg", "imgTestPerson3.jpg"];
-  var arrayDescriptions = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."];
-  for(j = 0; j < arrayName.length; j++) {
-      if(j === indexNow) {
-       	 document.getElementById("nameTop").innerHTML = arrayName[j];
-       	 document.getElementById("reviewBottom").innerHTML = arrayDescriptions[j];
-       	 document.getElementById("imgPerson").src = arrayImg[j];
-         if(i == 1) { 
-     	   indexNow++;
-           console.log("Here3!");
-           break;
-  	 } 
-  	 if(i == -1) {
-           indexNow--;
- 	   console.log("Here4!");
-           break;
-  	 }
-     }
-  }
-  console.log("indexNow is "+indexNow);
-  if(indexNow < 0 || indexNow == -1) {
-     indexNow = 2;
-     console.log("Here1!");
-  }
-  if(indexNow == 3) {
-     indexNow = 0;
-     console.log("Here2!");
-  }
-  console.log("indexNow is "+indexNow);
-}
 </script>
 </body>
 </html>
