@@ -240,6 +240,28 @@ padding: 15px;
 
 /* End */
 
+/* Product Pages */
+
+#VIPDiv, #platinumDiv, #BasicDiv {
+  margin-left: 2%;
+  width: 45%;
+  height: 75vh;
+  border-radius: 10px;
+}
+#VIPDiv .fa-check-circle, #platinumDiv .fa-check-circle, #BasicDiv .fa-check-circle {
+  color: white;
+}
+#VIPDiv2 .fa-check-circle, #platinumDiv2 .fa-check-circle, #BasicDiv2 .fa-check-circle {
+  color: white;
+}
+#VIPDiv2, #platinumDiv2, #BasicDiv2 {
+  margin-left: -2%;
+  width: 45%;
+  height: 75vh;
+  border-radius: 10px;
+}
+
+/* END */
 
 
 
