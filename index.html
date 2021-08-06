@@ -50,17 +50,17 @@
 </head>
 <body onload="incNbr()">
     <div id="banner"><p><a id="phoneBanner" href="tel:6134134336">(613)413-4336</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="emailBanner" href="mailto:info@mobiledetailsolutions.com">info@mobiledetailsolutions.com<a>&nbsp;&nbsp;&nbsp;&nbsp;<i id="twitter" class="fa fa-twitter" aria-hidden="true"></i>&nbsp;<i id="instagram" class="fa fa-instagram" aria-hidden="true"></i>&nbsp;<i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>&nbsp;<i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;<i id="youtube" class="fa fa-youtube"></i></p></div>
-<nav>
-  <ul>
-    <li><a id="imageLogo" href="index.html"><img src="https://mobiledetailsolutions.com/wp-content/uploads/2019/04/MDS_logo2.png" id="logo"></a></li>
-    <li><div><a href="index.html"  class="active-page">HOME</a></div></li>
+ <nav>
+     <img src="images/sLogo.png" id="logo">
+   <ul>
+    <li><div><a href="index.html">HOME</a></div></li>
     <li><div><a href="MDSAbout.html">ABOUT</a></div></li>
     <li><div id="drop">
     <a id="dropbtn">FLEET DETAILING 
       <i class="fa fa-caret-down"></i>
     </a>
     <div class="dropdown-content">
-      <a href="MDSProductsFleet.html">FLEET DETAILING</a>
+      <a href="MDSProductsFleet.html"  class="active-page">FLEET DETAILING</a>
       <a href="MDSProductsMetalPolishing.html">METAL POLISHING</a>
       <a href="MDSProductsPressureWashing.html">PRESSURE WASHING</a>
       <a href="MDSProductsDecalRemoval.html">DECAL REMOVAL</a>
@@ -134,18 +134,18 @@
   </div>
    <center><div id="imagesDivText3">
     <div id="column47" class="column57">
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServicesB" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServicesB" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServicesB" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServicesB" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
-	<div class="columnServices"><img id="imgServices" src="images/img6.png"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/IBoat.jpg"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/ICar.jpg"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/ICarpet.jpg"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/IDecal.jpg"></div>
+	<div class="columnServices"><img id="imgServicesB" src="images/ICONS/IFleet.jpg"></div>
+	<div class="columnServices"><img id="imgServicesB" src="images/ICONS/IHeavy.jpg"></div>
+	<div class="columnServices"><img id="imgServicesB" src="images/ICONS/IMetal.jpg"></div>
+	<div class="columnServices"><img id="imgServicesB" src="images/ICONS/IPaint.jpg"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/IPlane.jpg"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/IRV.jpg"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/ISan.jpg"></div>
+	<div class="columnServices"><img id="imgServices" src="images/ICONS/IWash.jpg"></div>
     </div>
   </div></center>
   <center style="box-shadow: 0px 0px 10px 8px rgb(0 0 0 / 28%);"><div id="imagesDivText4">
@@ -214,7 +214,7 @@
       </center>
   </div>
   <div class="column" id="column3" style="background-color: #080808;">
-    <h2 id="columnH2" style="margin-top: 3.5%; margin-bottom: 3.5%;">STAY CONNECTED</h2>
+    <h2 style="margin-top: 5%; margin-bottom: 5%; font-family: 'Fjalla One', sans-serif;">STAY CONNECTED</h2>
     <p style="margin-bottom: 5%; width: 90%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><input type="email" id="emailInput" name="email" placeholder="Enter your email..."><br><br><button type="submit" id="submitSignup">SIGN UP</button>
   </div>
  </div>
@@ -234,6 +234,42 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+
+
+var indexNow = 0;
+
+function moveForward(i) {
+  var arrayName = ["Ms. Lorem R. Ipsum", "Mr. Lorem R. Ipsum", "Ms. Lorem E. Ipsum"];
+  var arrayImg = ["imgTestPerson.jpg", "imgTestPerson2.jpg", "imgTestPerson3.jpg"];
+  var arrayDescriptions = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."];
+  for(j = 0; j < arrayName.length; j++) {
+      if(j === indexNow) {
+       	 document.getElementById("nameTop").innerHTML = arrayName[j];
+       	 document.getElementById("reviewBottom").innerHTML = arrayDescriptions[j];
+       	 document.getElementById("imgPerson").src = arrayImg[j];
+         if(i == 1) { 
+     	   indexNow++;
+           console.log("Here3!");
+           break;
+  	 } 
+  	 if(i == -1) {
+           indexNow--;
+ 	   console.log("Here4!");
+           break;
+  	 }
+     }
+  }
+  console.log("indexNow is "+indexNow);
+  if(indexNow < 0 || indexNow == -1) {
+     indexNow = 2;
+     console.log("Here1!");
+  }
+  if(indexNow == 3) {
+     indexNow = 0;
+     console.log("Here2!");
+  }
+  console.log("indexNow is "+indexNow);
+}
 </script>
 </body>
 </html>

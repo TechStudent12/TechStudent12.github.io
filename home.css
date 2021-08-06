@@ -50,24 +50,23 @@
  margin-bottom: 0%;
 }
 #bookNowAppoint, #contactUS {
- font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
     border-radius: 10px;
- float: left;
- color: red;
- border: 4px solid red;
- font-size: 20px;
- cursor: pointer;
- margin-left: 2%;
- margin-right: 2%; 
- padding: 10px;
- font-weight: bold;
- box-shadow: 3px 3px 3px #929292;
- text-decoration: none;
+    float: left;
+    color: white;
+    background-color: red;
+    border: 4px solid red;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #929292;
+    text-decoration: none;
 }
 #bookNowAppoint:hover, #contactUS:hover {
- color: white;
- border: 4px solid red;
- background-color: red;
+ filter: brightness(50%);
 }
 
 /* Years Of Experience */
