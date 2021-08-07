@@ -455,6 +455,8 @@ body {
   text-align: left;
   border: 4px solid silver;
   cursor: pointer;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
 }
 #Basic {
   padding: 4%;
@@ -465,6 +467,8 @@ body {
   text-align: left;
   border: 4px solid red;
   cursor: pointer;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
 }
 #imageCard2 p {
   text-align: left;
