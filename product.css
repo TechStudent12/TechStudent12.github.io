@@ -490,11 +490,17 @@ body {
   height: 75vh;
   border-radius: 10px;
 }
-#VIPDiv .fa-check-circle, #platinumDiv .fa-check-circle, #BasicDiv .fa-check-circle {
+#BasicDiv .fa-check-circle {
   color: white;
 }
-#VIPDiv2 .fa-check-circle, #platinumDiv2 .fa-check-circle, #BasicDiv2 .fa-check-circle {
+#VIPDiv .fa-check-circle, #platinumDiv .fa-check-circle {
+  color: black;
+}
+#BasicDiv2 .fa-check-circle {
   color: white;
+}
+#VIPDiv2 .fa-check-circle, #platinumDiv2 .fa-check-circle {
+  color: black;
 }
 #VIPDiv2, #platinumDiv2, #BasicDiv2 {
   margin-left: -2%;
@@ -504,10 +510,10 @@ body {
 }
 #VIPDiv, #VIPDiv2 {
   background-color: gold;
-  color: white;
+  color: black;
 }
 #VIPDiv #interior, #VIPDiv2 #exterior {
-  color: white;
+  color: black;
 }
 #BasicDiv, #BasicDiv2 {
   background-color: red;
@@ -518,10 +524,10 @@ body {
 }
 #platinumDiv, #platinumDiv2 {
   background-color: silver;
-  color: white;
+  color: black;
 }
 #platinumDiv #interior, #platinumDiv2 #exterior {
-  color: white;
+  color: black;
 }
 #imageDiv9 {
   background: white;
