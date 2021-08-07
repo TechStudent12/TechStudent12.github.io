@@ -577,10 +577,13 @@ border-radius: 10px;
     padding-top: -40px;
 }
 
+.collapsible:hover, .collapsible2:hover {
+   filter: brightness(90%);
+}
+
 .active, .collapsible:hover, .collapsible2:hover {
   border-color: red;
   background-color: white;
-  filter: brightness(50%);
   color: red;
     border-bottom-left-radius:0px;
     border-bottom-right-radius:0px;
@@ -588,6 +591,7 @@ border-radius: 10px;
 
 .active:after {
   color: red;
+  background-color: white;
   content: "\2212";
     font-size: 50px;
     top: -8px;
