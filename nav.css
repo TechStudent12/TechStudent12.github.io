@@ -103,7 +103,7 @@ text-align: right;
 }
 #logo:hover {
   cursor:pointer;
-  filter: grayscale(100%);
+  filter: sepia(100%);
 }
 /*  Logo  */
 
