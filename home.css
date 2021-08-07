@@ -578,8 +578,8 @@ border-radius: 10px;
 
 .active, .collapsible:hover, .collapsible2:hover {
   border-color: red;
-  background-color: red;
-  color: white;
+  filter: brightness(50%);
+  color: red;
     border-bottom-left-radius:0px;
     border-bottom-right-radius:0px;
 }
