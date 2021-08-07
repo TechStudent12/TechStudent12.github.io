@@ -443,7 +443,7 @@ body {
   background: gold;
   font-size: 50px;
   text-align: left;
-  border: 4px solid white;
+  border: 4px solid gold;
   cursor: pointer;
 }
 #platinum {
@@ -453,7 +453,7 @@ body {
   margin-top: 28%;
   font-size: 50px;
   text-align: left;
-  border: 4px solid white;
+  border: 4px solid silver;
   cursor: pointer;
 }
 #Basic {
@@ -463,7 +463,7 @@ body {
   background: red;
   font-size: 50px;
   text-align: left;
-  border: 4px solid white;
+  border: 4px solid red;
   cursor: pointer;
 }
 #imageCard2 p {
