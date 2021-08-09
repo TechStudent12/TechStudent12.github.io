@@ -205,7 +205,7 @@ body {
 }
 
 .card__title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: var(--font-size-large);
   color: black;
   margin-bottom: var(--space-small);
