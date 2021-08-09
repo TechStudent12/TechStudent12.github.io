@@ -95,6 +95,8 @@
 :root {
   --text-color: #333;
   --text-color-secondary: darkred;
+  --text-color-secondary22: grey;
+  --text-color-secondary23: darkgoldenrod;
   --text-color-link: #005A9E;
 
   --border-color: #ccc;
@@ -127,6 +129,42 @@
   --space: 1em;
   --space-large: 1.25em;
   --space-larger: 2em;
+}
+
+.card__price22 {
+  font-weight: bold;
+  color: silver;
+  font-size: var(--font-size-largest);
+  position: relative;
+  letter-spacing: -.02em;
+}
+
+.card__price22:before {
+  content: "$";
+  position: absolute;
+  font-size: var(--font-size-smallest);
+  font-weight: 400;
+  left: -15px;
+  top: 10px;
+  color: var(--text-color-secondary22);
+}
+
+.card__price23 {
+  font-weight: bold;
+  color: gold;
+  font-size: var(--font-size-largest);
+  position: relative;
+  letter-spacing: -.02em;
+}
+
+.card__price23:before {
+  content: "$";
+  position: absolute;
+  font-size: var(--font-size-smallest);
+  font-weight: 400;
+  left: -15px;
+  top: 10px;
+  color: var(--text-color-secondary23);
 }
 
 body {
