@@ -219,6 +219,13 @@ body {
   margin-bottom: var(--space-small);
   font-family: 'Fjalla One', sans-serif;';
 }
+.card__title22 {
+  font-weight: 600;
+  font-size: var(--font-size-large2);
+  color: red;
+  margin-bottom: var(--space-small);
+  font-family: 'Fjalla One', sans-serif;';
+}
 .card__title3 {
   font-weight: 500;
   font-size: var(--font-size-large2);
