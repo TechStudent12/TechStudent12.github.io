@@ -187,9 +187,9 @@ body {
 }
 
 .card--selected {
-  border-color: var(--border-color-selected);
-  box-shadow: 0 0px 5px rgba(0,0,0,.3);
-  border-radius: 5px;
+    /* border-color: var(--border-color-selected); */
+    box-shadow: 0 0px 5px rgb(101 101 101 / 63%);
+    border-radius: 5px;
 }
 
 .card--selected3 {
