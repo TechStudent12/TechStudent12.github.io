@@ -1,5 +1,9 @@
 /* Products Pages CSS */
 
+iframe {
+   height: 400px;
+}
+
 #imageCard2 {
   position: relative;
   z-index: 1;
