@@ -17,7 +17,7 @@ iframe {
   z-index: 1;
   border-radius: 10px;
   width: 80%;
-  height: 82vh;
+  height: 115vh;
   padding: 2%;
 }
 
@@ -561,8 +561,10 @@ body {
 #VIPDiv, #platinumDiv, #BasicDiv {
   margin-left: 5%;
   width: 45%;
-  height: 75vh;
+  height: 90vh;
   border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 #BasicDiv .fa-check-circle {
   color: white;
@@ -579,8 +581,10 @@ body {
 #VIPDiv2, #platinumDiv2, #BasicDiv2 {
   margin-left: -2%;
   width: 45%;
-  height: 75vh;
+  height: 90vh;
   border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 #VIPDiv, #VIPDiv2 {
   background-color: gold;
