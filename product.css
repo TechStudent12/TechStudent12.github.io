@@ -758,7 +758,7 @@ body {
   background-size: cover;
   position: relative;
   padding: 4%;
-  height: 68vh;
+  height: 64vh;
 }
 #imageDiv16:before {
   content: "";
