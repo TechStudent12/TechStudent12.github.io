@@ -4,6 +4,10 @@ iframe {
    height: 330px;
 }
 
+#productsIframe {
+   height: 315px;
+}
+
 #imageCard2 {
   position: relative;
   z-index: 1;
