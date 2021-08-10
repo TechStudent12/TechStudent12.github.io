@@ -195,7 +195,7 @@ body {
   margin: 5px;
   padding: 20px 40px;
   box-shadow: 0 0px 8px 4px rgb(0 0 0 / 30%);
-  border: 1px solid var(--border-color);
+  /*border: 1px solid var(--border-color);*/
 }
 
 .card--selected {
@@ -205,14 +205,14 @@ body {
 }
 
 .card--selected3 {
-  border-color: var(--border-color-selected3);
-  box-shadow: 0 0px 5px rgba(0,0,0,.3);
+  /*border-color: var(--border-color-selected3);
+  box-shadow: 0 0px 5px rgba(0,0,0,.3);*/
   border-radius: 5px;
 }
 
 .card--selected4 {
-  border-color: var(--border-color-selected4);
-  box-shadow: 0 0px 5px rgba(0,0,0,.3);
+  /*border-color: var(--border-color-selected4);
+  box-shadow: 0 0px 5px rgba(0,0,0,.3);*/
   border-radius: 5px;
 }
 
