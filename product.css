@@ -696,6 +696,29 @@ body {
 #imageCard44 p .fa-check-circle {
   color: green;
 }
+#imageCard45 {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  height: 50vh;
+  background: white;
+  padding: 4%;
+}
+#imageCard45 p {
+  margin-top: 8%;
+  font-size: 16px;
+}
+#imageCard45 h1 {
+  color: red;
+  font-size: 40px;
+  margin-left: -20%;
+  margin-top: -10%;
+  margin-bottom: 12%;
+  font-family: 'Fjalla One', sans-serif;';
+}
+#imageCard45 p .fa-check-circle {
+  color: green;
+}
 .card--plan2 {
     width: 300px;
 }
