@@ -198,7 +198,7 @@ body {
 }
 
 .card--selected {
-    /* border-color: var(--border-color-selected); */
+    border-color: var(--border-color-selected);
     box-shadow: 0 0px 5px rgb(101 101 101 / 63%);
     border-radius: 5px;
 }
