@@ -194,12 +194,13 @@ body {
   display: inline-block;
   margin: 5px;
   padding: 20px 40px;
+  box-shadow: 0 0px 8px 4px rgb(0 0 0 / 30%);
   border: 1px solid var(--border-color);
 }
 
 .card--selected {
-    border-color: var(--border-color-selected);
-    box-shadow: 0 0px 5px rgb(101 101 101 / 63%);
+    /*border-color: var(--border-color-selected);
+    box-shadow: 0 0px 5px rgb(101 101 101 / 63%);*/
     border-radius: 5px;
 }
 
