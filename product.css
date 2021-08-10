@@ -700,7 +700,7 @@ body {
   position: relative;
   z-index: 1;
   width: 80%;
-  height: 48vh;
+  height: 46vh;
   background: white;
   padding: 4%;
 }
@@ -758,7 +758,7 @@ body {
   background-size: cover;
   position: relative;
   padding: 4%;
-  height: 72vh;
+  height: 68vh;
 }
 #imageDiv16:before {
   content: "";
