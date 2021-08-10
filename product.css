@@ -717,7 +717,7 @@ body {
   background-size: cover;
   position: relative;
   padding: 4%;
-  height: 70vh;
+  height: 75vh;
 }
 #imageDiv15:before {
   content: "";
@@ -727,7 +727,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0, 0.7);
+  background: rgba(0,0,0, 0.85);
   transition: all .3s linear;
 }
 
