@@ -1,11 +1,15 @@
 /* Products Pages CSS */
 
 iframe {
-   height: 330px;
+  height: 330px;
 }
 
 #productsIframe {
-   height: 315px;
+  height: 315px;
+}
+
+#pressureIframe {
+  height: 350px;
 }
 
 #imageCard2 {
