@@ -561,7 +561,7 @@ body {
 #VIPDiv, #platinumDiv, #BasicDiv {
   margin-left: 5%;
   width: 45%;
-  height: 90vh;
+  height: 100vh;
   border-radius: 10px;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -581,7 +581,7 @@ body {
 #VIPDiv2, #platinumDiv2, #BasicDiv2 {
   margin-left: -2%;
   width: 45%;
-  height: 90vh;
+  height: 100vh;
   border-radius: 10px;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
