@@ -607,6 +607,13 @@ body {
   padding: 4%;
   height: 76vh;
 }
+#imageDiv11 {
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);
+  position: relative;
+  padding: 4%;
+  height: 63vh;
+}
 #imgMetal {
   margin-top: -10%;
   width: 100%;
