@@ -712,5 +712,22 @@ body {
   box-shadow: 0 0px 5px rgba(0,0,0,.3);
   border-radius: 5px;
 }
+#imageDiv15 {
+  background-image: url("https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwY2xlYW5pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  position: relative;
+  padding: 4%;
+}
+#imageDiv15:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.5);
+  transition: all .3s linear;
+}
 
 /* END */
