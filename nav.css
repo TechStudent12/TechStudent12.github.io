@@ -160,6 +160,9 @@ text-align: right;
 
 .topnav #myLinks {
   display: none;
+  margin-top: 2%;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .topnav a {
