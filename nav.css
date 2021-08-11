@@ -181,4 +181,9 @@ text-align: right;
   top: 0;
 }
 
+.active2 {
+  background-color: red;
+  color: white;
+}
+
 /* END */
