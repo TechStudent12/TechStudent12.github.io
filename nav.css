@@ -186,4 +186,9 @@ text-align: right;
   color: white;
 }
 
+.topnav a:hover {
+  background-color: red;
+  color: white;
+}
+
 /* END */
