@@ -191,4 +191,9 @@ text-align: right;
   color: white;
 }
 
+.topnav .dropdown-content a:hover {
+  background-color: red;
+  color: white;
+}
+
 /* END */
