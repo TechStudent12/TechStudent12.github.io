@@ -196,4 +196,12 @@ text-align: right;
   color: white;
 }
 
+#imageLogo2 {
+  cursor: pointer;
+}
+
+#imageLogo2:hover {
+  background: none;
+}
+
 /* END */
