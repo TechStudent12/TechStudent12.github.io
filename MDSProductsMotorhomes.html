@@ -13,9 +13,33 @@
 <link rel="stylesheet" href="product.css">
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-388b0565-570f-43fb-a1e7-a02c8146ee01"></div>
-
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-1c02e6f1-50f7-48bb-960d-43009e302bee"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_CCgJnrA7rBVW25au7j9m0');
+        })();
+ </script>
+ <script type="text/javascript">
+        window.onload = function() {
+	    document.getElementById('contact_form_footer').addEventListener('submit', function(event) {
+                event.preventDefault();
+		var emailVal2 = document.getElementById("emailInput").value;
+                var templateParams = {
+		    from_email: emailVal2
+		};
+		console.log(templateParams);
+		emailjs.send('service_zys414i', 'template_yvs550v', templateParams)
+		    .then(function(response) {
+		      console.log('SUCCESS!', response.status, response.text);
+		    }, function(error) {
+		      console.log('FAILED...', error);
+		});
+            });
+        }
+</script>
 </head>
 <body>
     <div id="banner"><p><a id="phoneBanner" href="tel:6134134336">(613)413-4336</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="emailBanner" href="mailto:info@mobiledetailsolutions.com">info@mobiledetailsolutions.com<a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/mobiledetailsolutions/" style="text-decoration: none; outline: none;"><i id="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;<a href="https://www.facebook.com/MobileDetailSolutionss" style="text-decoration: none; outline: none;"><i id="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;<a href="https://www.linkedin.com/company/mobile-detail-solutions/" style="text-decoration: none; outline: none;"><i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCxF7IJJaNWc9cWQjcRRoLKw" style="text-decoration: none; outline: none;"><i id="youtube" class="fa fa-youtube"></i></a></p></div>
