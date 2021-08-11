@@ -27,15 +27,34 @@
         window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
+		var nameVal = document.getElementById("inputName").value;
+		var emailVal = document.getElementById("emailInput2").value;
+		var messageVal = document.getElementById("textareaMessage").value;
+                var templateParams = {
+		    from_name: nameVal,
+		    message_from: messageVal,
+		    email_from: emailVal 
+		};
+		emailjs.send('service_zys414i', 'template_kdy2zma', templateParams)
+		    .then(function(response) {
+		      console.log('SUCCESS!', response.status, response.text);
+		    }, function(error) {
+		      console.log('FAILED...', error);
+		});
+            });
+	    document.getElementById('contact_form_footer').addEventListener('submit', function(event) {
+                event.preventDefault();
+		var emailVal2 = document.getElementById("emailInput").value;
+                var templateParams = {
+		    from_email: emailVal2
+		};
+		console.log(templateParams);
+		emailjs.send('service_zys414i', 'template_yvs550v', templateParams)
+		    .then(function(response) {
+		      console.log('SUCCESS!', response.status, response.text);
+		    }, function(error) {
+		      console.log('FAILED...', error);
+		});
             });
         }
 </script>
@@ -88,7 +107,7 @@
       	   <div id="contactForm">
 		<form id="contact-form">
 			<div id="nameDiv"><label style="font-family: 'Poppins', sans-serif; color:red;">Name</label><br><input id="inputName" type="text" name="user_name" placeholder="Enter your name..."></div>
-			<div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:red;">Email</label><br><input id="inputEmail" type="email" name="user_email" placeholder="Enter your email..."></div>
+			<div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:red;">Email</label><br><input id="inputEmail2" type="email" name="user_email" placeholder="Enter your email..."></div>
 			<div id="messageDiv"><label style="font-family: 'Poppins', sans-serif; color:red;">Message</label><br><textarea id="textareaMessage" name="message" placeholder="Enter your message..."></textarea></div>
 			<button id="buttonSend" type="submit" style="font-family: 'Poppins', sans-serif;">SEND MESSAGE</button>
 		</form>
@@ -125,7 +144,10 @@
   </div>
   <div class="column" id="column3" style="background-color: #080808;">
     <h2 id="columnH2" style="margin-top: 3.5%; margin-bottom: 3.5%;">STAY CONNECTED</h2>
-    <p style="margin-bottom: 5%; width: 90%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><input type="email" id="emailInput" name="email" placeholder="Enter your email..."><br><br><button type="submit" id="submitSignup">SIGN UP</button>
+    <p style="margin-bottom: 5%; width: 90%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <form id="contact_form_footer">
+	    <input type="email" id="emailInput" name="email" placeholder="Enter your email..."><br><br><button type="submit" id="submitSignup">SIGN UP</button>
+    </form>
   </div>
 </div>
 </body>
