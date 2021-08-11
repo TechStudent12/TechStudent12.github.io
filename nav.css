@@ -163,7 +163,8 @@ text-align: right;
 }
 
 .topnav a {
-  color: white;
+  color: red;
+  font-weight: bold;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
