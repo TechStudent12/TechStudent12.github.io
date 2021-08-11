@@ -100,12 +100,23 @@ p{
 }
 #emailInput {
      width: 60%;
-    padding: 10px;
+    padding: 11px;
 }
 #emailInput {
  border: 4px solid white;
 }
 #emailInput:focus {
+ border: 4px solid red;
+ outline: none;
+}
+#emailInput2 {
+    width: 60%;
+    padding: 10px;
+}
+#emailInput2 {
+ border: 4px solid white;
+}
+#emailInput2:focus {
  border: 4px solid red;
  outline: none;
 }
