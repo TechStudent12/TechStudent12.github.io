@@ -191,7 +191,7 @@ text-align: right;
   color: white;
 }
 
-.topnav .dropdown-content a:hover {
+.topnav .drop .dropdown-content a:hover {
   background-color: red;
   color: white;
 }
