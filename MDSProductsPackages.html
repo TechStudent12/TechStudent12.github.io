@@ -342,7 +342,6 @@
   </div>
 </div>
 <script>
-
 function active() {
   document.getElementById("platinum").style.backgroundColor = "silver";
   document.getElementById("platinum").style.color = "white";
@@ -401,6 +400,14 @@ function activeButton(id){
         document.getElementById("BasicDiv").style.display = "block";
         document.getElementById("BasicDiv2").style.display = "block";
 	document.getElementById("Basic").style.filter = "brightness(50%)";
+  }
+}
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
 function functionOpen(id) {
