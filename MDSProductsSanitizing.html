@@ -202,6 +202,14 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 function functionOpen(id) {
   var x = document.getElementById("dropdown-content"+id);
   if(x.style.display === "none") {
