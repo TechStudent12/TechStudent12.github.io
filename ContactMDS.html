@@ -109,8 +109,8 @@
   <a id="imageLogo2" href="index.html" style="cursor: default;"><img src="images/sLogo.png" id="logo" style="cursor: pointer;"></a>
   <div id="myLinks" style="margin-top: 2%;">
     <a href="index.html">HOME</a>
-    <div class="dropdown" style="padding: 0px;">
-     <button class="dropbtn" onclick="functionOpen('dropdown-content2')" style="padding: 20px;">FLEET DETAILING 
+    <div  id="dropdown2" class="dropdown" style="padding: 0px;">
+     <button id="btnOpen2" class="dropbtn" onclick="functionOpen('2')" style="padding: 20px;">FLEET DETAILING 
        <i class="fa fa-caret-down"></i>
      </button>
      <div id="dropdown-content2" class="dropdown-content2" style="display: none;">
@@ -120,8 +120,8 @@
        <a href="MDSProductsDecalRemoval.html">DECAL REMOVAL</a>
      </div>
     </div>
-   <div class="dropdown" style="padding: 0px;">
-    <button class="dropbtn" onclick="functionOpen('dropdown-content3')" style="padding: 20px;">VEHICLE DETAILING 
+   <div  id="dropdown3" class="dropdown" style="padding: 0px;">
+    <button id="btnOpen3" class="dropbtn" onclick="functionOpen('3')" style="padding: 20px;">VEHICLE DETAILING 
       <i class="fa fa-caret-down"></i>
     </button>
     <div id="dropdown-content3" class="dropdown-content3" style="display: none;">
@@ -129,8 +129,8 @@
       <a href="MDSProductsPaintCorrection.html">PAINT CORRECTION</a>
     </div>
    </div>
-   <div class="dropdown" style="padding: 0px;">
-    <button class="dropbtn" onclick="functionOpen('dropdown-content4')" style="padding: 20px;">OTHER 
+   <div id="dropdown4" class="dropdown" style="padding: 0px;">
+    <button id="btnOpen4" class="dropbtn" onclick="functionOpen('4')" style="padding: 20px;">OTHER 
       <i class="fa fa-caret-down"></i>
     </button>
     <div id="dropdown-content4" class="dropdown-content4" style="display: none;">
@@ -209,12 +209,18 @@ function myFunction() {
   }
 }
 function functionOpen(id) {
-  var x = document.getElementById(id);
+  var x = document.getElementById("dropdown-content"+id);
   if(x.style.display === "none") {
-     x.style.display = "none";
+     x.style.display = "block";
+     document.getElementById("btnOpen"+id).style.backgroundColor = "red";
+     document.getElementById("btnOpen"+id).style.color = "white";
+     document.getElementById("dropdown"+id).style.backgroundColor = "red";
   }
   else {
-     x.style.display = "block"
+     x.style.display = "none"
+     document.getElementById("btnOpen"+id).style.backgroundColor = "white";
+     document.getElementById("dropdown"+id).style.backgroundColor = "white";
+     document.getElementById("btnOpen"+id).style.color = "red";
   }
 }
 </script>
