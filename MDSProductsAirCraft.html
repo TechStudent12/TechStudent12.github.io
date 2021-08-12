@@ -321,11 +321,11 @@ function functionOpen(id) {
      document.getElementById("btnOpen"+id).style.color = "red";
   }
 }
-if($(window).width() > 1200){ 
+if($(window).width() < 1200){ 
   document.getElementById("navGreater1200").style.display="none";
   document.getElementById("navLess1200").style.display="block";
 }
-if($(window).width() < 1200){ 
+if($(window).width() > 1200){ 
   document.getElementById("navGreater1200").style.display="block";
   document.getElementById("navLess1200").style.display="none";
 }
