@@ -159,7 +159,8 @@
    <a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="text-align: left; border: none;">BOOK NOW</a>
   </div>
   <button class="icon" onclick="myFunction()" style="color: red; background: white; padding: 20px; font-size: 20px; border: none; outline: none; cursor: pointer;">
-    <i class="fa fa-bars"></i>
+    <i id="bars" class="fa fa-bars" style="display: block;"></i>
+    <i id="times" class="fa fa-times" aria-hidden="true" style="display: none;"></i>
   </button>
 </div>
  <center><div style="width: 70%; display: table;">
@@ -245,8 +246,12 @@ function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
+    document.getElementById("times").style.display = "none";
+    document.getElementById("bars").style.display = "block";
   } else {
     x.style.display = "block";
+    document.getElementById("times").style.display = "block";
+    document.getElementById("bars").style.display = "none";
   }
 }
 function functionOpen(id) {
