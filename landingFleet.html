@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="home.css">
+
+  
+    <style> 
+        nav{
+            box-shadow: none;
+            background-color:#FF5A5A;
+        }
+        ul{
+            float:right;
+            padding-top: 20px;
+        }
+        .box{
+            height:100vh;
+        }
+        ul li a{
+            color: white;
+            font-size: 18px;
+        }
+        li a{
+            color: white;
+            font-size: 18px;
+        }
+        #logo {
+            height: 70px;
+        }
+        h1{
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            font-size: 45px;
+            text-align: center;
+            font-weight: 900;
+        }
+        h2{
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            font-weight: 900;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #inputName, #inputEmail {
+            height: 100%;
+            padding: 20px;
+            margin-bottom: 2%;
+            border: 4px solid white;
+            font-family: 'Poppins', sans-serif;
+            background: white;
+            border-radius:30px;
+        }
+        #nameDiv, #emailDiv, #messageDiv {
+             margin-left: 0%; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #contactForm {
+            padding-top:20px;
+            text-align: left;
+            color: black;
+            width: 40%;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5%;
+        }
+        textarea {
+            width: 88%;
+            border-radius: 30px;
+            height: 10vh;
+            padding: 10px;
+            resize: none;
+            font-size: 14px;
+            margin-top: 2%;
+            border: 4px solid white;
+            background: white;
+            margin-bottom: 2%;
+            font-family: 'Poppins', sans-serif;
+        }
+        #buttonSend {
+            padding-top:20px;
+            padding: 15px;
+            border: none;
+            background: white;
+            margin-left: 6%;
+            color: #FF5A5A;
+            font-weight: bold;
+            font-size: 22px;
+            border-radius: 10px;
+            width: 88%;
+        }
+        .bottom{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .all{
+            padding-top: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        .buttons{
+            display:flex;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div class = "box" style="background-color:#FF5A5A;">
+    <nav>
+            <a id="imageLogo" href="index.html"><img src="images/sLogo.png" id="logo"></a>
+            <ul>
+                <li><div><a href="index.html">HOME</a></div></li>
+                <li><div><a href="ContactMDS.html" style="border-radius: 30px;background-color: white;color: #FF5A5A;">CONTACT US</a></div></li>
+            </ul>
+        </nav>
+        <div class = "main"  style="padding-top:140px;">
+            <h1>TAKING CARE OF YOUR FLEET</h1>
+            <h1>HAS NEVER BEEN THIS EASY</h1>
+            <img src="images/landing/main.png" alt="main" style="width:40vw;">
+            <h2>HASSEL FREE DETAILING, WE COME TO YOU!</h2>
+            <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: white;color: #FF5A5A; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+        </div>
+    </div>
+    <div class = "box" style="background-color:white;">
+        <h1 style="color:red; padding-top:40px;">A VARIETY OF SERVICES</h1>
+        <div class = "all">
+            <div class = "item">
+                <h2 style="color:red;">FLEET DETAILING</h2>
+                    <div class="buttons">
+                        <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsFleet.html" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/fleet.png" alt="main" style="width:20vw; padding-top:40px;">
+            </div>
+            <div class = "item">
+                <h2 style="color:red;">METAL POLISHING</h2>
+                    <div class="buttons">
+                        <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsMetalPolishing.html" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/metal.png" alt="main" style="width:20vw; padding-top:40px;">
+            </div>
+        </div>
+        <div class = "all" style="padding-bottom:40px;">
+            <div class = "item">
+                <h2 style="color:red;">PRESSURE WASHING</h2>
+                    <div class="buttons">
+                        <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsPressureWashing.html" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/wash.png" alt="main" style="width:20vw; padding-top:40px;">
+            </div>
+            <div class = "item">
+                <h2 style="color:red;">DECAL REMOVAL</h2>
+                    <div class="buttons">
+                        <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsDecalRemoval.html" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 10px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/decal.png" alt="main" style="width:20vw; padding-top:40px;">
+            </div>
+        
+        </div>
+
+    </div>
+    <div class = "box" style="background-color:#FF5A5A; padding-top:40px">
+        <div class = "main">
+            <h1>WHAT ARE YOU WAITING FOR?</h1>
+            <h1>JOIN OUR NEWSLETTER TO SAVE EVEN MORE!</h1>
+            <div id="contactForm">
+            <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif; color:white; text-align: center;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..."></div>
+            <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:white; text-align: center;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..."></div>
+            <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif; color:white; text-align: center; ">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..."></textarea></div>
+            <button id="buttonSend" type="submit" style="font-family: 'Poppins', sans-serif;">SEND MESSAGE</button>
+           </div>
+        </div>
+        <div class="bottom">
+            <img src="images/logo.png" alt="main" style="width:180px;">
+        
+        </div>
+    </div>
+
+</body>
+</html>
