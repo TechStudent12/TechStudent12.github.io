@@ -222,9 +222,11 @@ text-align: right;
   border: none;
   color: red;
   background-color: white;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-.dropdown:hover {
+.dropdown:hover, .dropdown .dropbtn:hover {
   background-color: red;
   color: white;
 }
