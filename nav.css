@@ -217,4 +217,16 @@ text-align: right;
   display: block;
 }
 
+.dropbtn {
+  outline: none;
+  border: none;
+  color: red;
+  background-color: white;
+}
+
+.dropdown:hover {
+  background-color: red;
+  color: white;
+}
+
 /* END */
