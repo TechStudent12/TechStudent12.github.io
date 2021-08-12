@@ -206,7 +206,7 @@ text-align: right;
 
 /* Mobile View NAV */
 
-.dropdown {
+.dropdown2 {
   color: red;
   font-weight: bold;
   padding: 14px 16px;
@@ -228,12 +228,7 @@ text-align: right;
   text-align: left;
 }
 
-.dropdown:hover {
-  background-color: red;
-  color: white;
-}
-
-.dropdown .dropbtn:hover {
+.dropdown2 .dropbtn:hover {
   background-color: red;
   color: white;
 }
