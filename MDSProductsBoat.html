@@ -42,6 +42,16 @@
             });
         }
 </script>
+<style>
+@media screen and (max-width: 1200px) {
+    #navGreater1200 {
+        display: none !important;
+    }
+    #navLess1200 {
+        display: block !important;
+    }
+}
+</style>
 </head>
 <body>
     <div id="banner"><p><a id="phoneBanner" href="tel:6134134336">(613)413-4336</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="emailBanner" href="mailto:info@mobiledetailsolutions.com">info@mobiledetailsolutions.com<a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/mobiledetailsolutions/" style="text-decoration: none; outline: none;"><i id="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;<a href="https://www.facebook.com/MobileDetailSolutionss" style="text-decoration: none; outline: none;"><i id="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;<a href="https://www.linkedin.com/company/mobile-detail-solutions/" style="text-decoration: none; outline: none;"><i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCxF7IJJaNWc9cWQjcRRoLKw" style="text-decoration: none; outline: none;"><i id="youtube" class="fa fa-youtube"></i></a></p></div>
@@ -200,14 +210,6 @@ function functionOpen(id) {
      document.getElementById("btnOpen"+id).style.backgroundColor = "white";
      document.getElementById("btnOpen"+id).style.color = "red";
   }
-}
-if($(window).width() > 1200){ 
-  document.getElementById("navGreater1200").style.display="none";
-  document.getElementById("navLess1200").style.display="block";
-}
-if($(window).width() < 1200){ 
-  document.getElementById("navGreater1200").style.display="block";
-  document.getElementById("navLess1200").style.display="none";
 }
 </script>
 </body>
