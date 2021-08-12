@@ -206,7 +206,7 @@ text-align: right;
 
 /* Mobile View NAV */
 
-.dropdown2 {
+.dropdown2, .dropdown3, .dropdown4  {
   color: red;
   font-weight: bold;
   padding: 14px 16px;
