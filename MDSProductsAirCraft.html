@@ -38,6 +38,14 @@
 		      console.log('FAILED...', error);
 		});
             });
+            if($(window).width() < 1200){ 
+	       document.getElementById("navGreater1200").style.display="none";
+	       document.getElementById("navLess1200").style.display="block";
+	    }
+	    if($(window).width() > 1200){ 
+	       document.getElementById("navGreater1200").style.display="block";
+	       document.getElementById("navLess1200").style.display="none";
+	    }
         }
 </script>
 </head>
