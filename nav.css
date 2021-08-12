@@ -221,12 +221,19 @@ text-align: right;
   outline: none;
   border: none;
   color: red;
-  background-color: white;
+  background-color: transparent;
   font-size: 17px;
   font-weight: bold;
+  width: 100%;
+  text-align: left;
 }
 
-.dropdown:hover, .dropdown .dropbtn:hover {
+.dropdown:hover {
+  background-color: red;
+  color: white;
+}
+
+.dropdown .dropbtn:hover {
   background-color: red;
   color: white;
 }
