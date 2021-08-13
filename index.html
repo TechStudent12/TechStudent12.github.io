@@ -47,17 +47,6 @@
     }
 
     incEltNbr("nbr"); /*Call this funtion with the ID-name for that element to increase the number within*/   
-
-    document.onreadystatechange = function () {
-	    var state = document.readyState
-	    if (state == 'complete') {
-		setTimeout(function(){
-			document.getElementById('interactive');
-			document.getElementById('load').style.visibility="hidden";
-			document.getElementById('contents').style.visibility="visible";
-		},1000);
-	     }
-     }
 </script>
 <div class="elfsight-app-388b0565-570f-43fb-a1e7-a02c8146ee01"></div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
@@ -85,6 +74,16 @@
 		});
             });
         }
+	document.onreadystatechange = function () {
+	  var state = document.readyState
+	  if (state == 'complete') {
+	      setTimeout(function(){
+		 document.getElementById('interactive');
+		 document.getElementById('load').style.visibility="hidden";
+		 document.getElementById('contents').style.visibility="visible";
+	      },1000);
+	  }
+	}
 </script>
 <style>
 @media screen and (max-width: 1250px) {
