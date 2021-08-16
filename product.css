@@ -21,6 +21,15 @@ iframe {
   padding: 2%;
 }
 
+#imageCard22 {
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  width: 80%;
+  height: 120vh;
+  padding: 2%;
+}
+
 #imgHeavy22 {
   width: 302px;
   height: 150px;
