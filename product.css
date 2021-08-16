@@ -428,6 +428,11 @@ body {
   background-size: cover;
   padding: 4%;
 }
+#imageDiv44 {
+  background-image: url("../images/imgFleet.png");
+  background-size: cover;
+  padding: 4%;
+}
 #imageDiv5 {
   background-image: url("../images/imgBoatDetailing.jpg");
   background-size: cover;
