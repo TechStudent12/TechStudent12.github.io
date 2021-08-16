@@ -617,6 +617,40 @@ body {
   border-bottom-left-radius:10px;
   border-bottom-right-radius:10px;
 }
+#VIP1 {
+  padding: 4%;
+  margin-top: 0%;
+  color: white;
+  background: gold;
+  font-size: 50px;
+  text-align: left;
+  border: 4px solid gold;
+  cursor: pointer;
+}
+#platinum1 {
+  padding: 4%;
+  color: white;
+  background: silver;
+  margin-top: 0%;
+  font-size: 50px;
+  text-align: left;
+  border: 4px solid silver;
+  cursor: pointer;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+#Basic1 {
+  padding: 4%;
+  margin-top: 0%;
+  color: white;
+  background: red;
+  font-size: 50px;
+  text-align: left;
+  border: 4px solid red;
+  cursor: pointer;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
 #imageCard2 p {
   text-align: left;
   margin-top: 5%;
@@ -688,6 +722,55 @@ body {
   color: black;
 }
 #platinumDiv #interior, #platinumDiv2 #exterior {
+  color: black;
+}
+#VIPDiv1, #platinumDiv1, #BasicDiv1 {
+  margin-left: 5%;
+  width: 45%;
+  height: 100vh;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+#BasicDiv1 .fa-check-circle {
+  color: green;
+}
+#VIPDiv1 .fa-check-circle, #platinumDiv1 .fa-check-circle {
+  color: green;
+}
+#BasicDiv22 .fa-check-circle {
+  color: green;
+}
+#VIPDiv22 .fa-check-circle, #platinumDiv22 .fa-check-circle {
+  color: green;
+}
+#VIPDiv22, #platinumDiv22, #BasicDiv22 {
+  margin-left: -2%;
+  width: 45%;
+  height: 100vh;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+#VIPDiv1, #VIPDiv22 {
+  background-color: white;
+  color: black;
+}
+#VIPDiv1 #interior, #VIPDiv22 #exterior {
+  color: black;
+}
+#BasicDiv1, #BasicDiv22 {
+  background-color: white;
+  color: black;
+}
+#BasicDiv1 #interior, #BasicDiv22 #exterior {
+  color: black;
+}
+#platinumDiv1, #platinumDiv22 {
+  background-color: white;
+  color: black;
+}
+#platinumDiv1 #interior, #platinumDiv22 #exterior {
   color: black;
 }
 #imageDiv9 {
