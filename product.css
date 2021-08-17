@@ -937,7 +937,7 @@ body {
   padding: 4%;
   height: 75vh;
 }
-#imageDiv155:before {
+/* #imageDiv155:before {
   content: "";
   display: block;
   position: absolute;
@@ -947,7 +947,7 @@ body {
   right: 0;
   background: rgba(0,0,0, 0.85);
   transition: all .3s linear;
-}
+} */
 #imageDiv16 {
   background-image: url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80");
   background-size: cover;
