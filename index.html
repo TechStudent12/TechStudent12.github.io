@@ -24,7 +24,7 @@
         * the element containing the number you want to do a count animation on.*/
         function incEltNbr(id) {
           elt = document.getElementById(id);
-	  if(document.getElementById(id).innerHTML) {
+	  if(document.getElementById(id)) {
 	     endNbr = Number(document.getElementById(id).innerHTML);
 	     incNbrRec(0, endNbr, elt);
 	  }
