@@ -807,6 +807,23 @@ body {
   background: rgba(0,0,0, 0.5);
   transition: all .3s linear;
 }
+#imageDiv111 {
+  background-image: url("https://images.unsplash.com/photo-1620770011596-ef3920c4696d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  background-size: cover;
+  position: relative;
+  padding: 4%;
+}
+#imageDiv111:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.5);
+  transition: all .3s linear;
+}
 #imgMetal {
   margin-top: -10%;
   width: 100%;
