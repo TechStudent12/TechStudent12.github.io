@@ -502,7 +502,7 @@ body {
   transition: all .3s linear;
 }
 #imageDiv7 {
-  background-image: url("../images/imgMotorhomeBackground.jpg");
+  background-image: url("../images/imgMotorhomeBackground.webp");
   background-size: cover;
   position: relative;
   padding: 4%;
@@ -519,7 +519,7 @@ body {
   transition: all .3s linear;
 }
 #imageDiv77 {
-  background-image: url("../images/imgMotorhomeBackground.jpg");
+  background-image: url("../images/imgMotorhomeBackground.webp");
   background-size: cover;
   position: relative;
   padding: 4%;
