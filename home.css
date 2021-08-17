@@ -1,5 +1,5 @@
 .container {
-      padding-top: 60px;
+  padding-top: 60px;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -9,17 +9,17 @@
   float: right;
   width: 450px;
   padding: 0px;
-    display:flex;
+  display:flex;
 }
 .column33 {
   float: left;
-    width: 55%;
-    margin-left: 10%;
+  width: 55%;
+  margin-left: 10%;
   color: black;
 }
 #imageDiv {
  height: 100%;
-    width: 100%;
+ width: 100%;
 }
 .row2:after {
   content: "";
