@@ -468,7 +468,7 @@ body {
   transition: all .3s linear;
 }
 #imageDiv6 {
-  background-image: url("../images/imgAircraftBackground.jpg");
+  background-image: url("../images/imgAircraftBackground.webp");
   background-size: cover;
   position: relative;
   padding: 4%;
@@ -485,7 +485,7 @@ body {
   transition: all .3s linear;
 }
 #imageDiv66 {
-  background-image: url("../images/imgAircraftBackground.jpg");
+  background-image: url("../images/imgAircraftBackground.webp");
   background-size: cover;
   position: relative;
   padding: 4%;
