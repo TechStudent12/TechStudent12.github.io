@@ -146,7 +146,7 @@ font-family: 'Poppins', sans-serif;
 #logoImages {
     margin-top: -2.5%;
     margin-left: 2%;
-        width: 250px;
+    width: 250px;
     /* float: left; */
     padding: 10px;
 }
@@ -155,16 +155,14 @@ font-family: 'Poppins', sans-serif;
  margin-right: 2%;
  margin-top: 3%;
 }
-
-
 .column55 {
   width: 70%;
   float: right;
 }
 #truckImages {
-        position: absolute;
+   position: absolute;
  top: 65%;
-    width: 50%;
+   width: 50%;
 }
 #column44 {
   margin-top: 6%;
@@ -183,8 +181,8 @@ font-family: 'Poppins', sans-serif;
 }
 #column46 {
   background: red;
-    position: absolute;
-       height: 10vw;
+  position: absolute;
+  height: 10vw;
 }
 .columnText1 {
   color: white;
@@ -246,8 +244,8 @@ font-family: 'Poppins', sans-serif;
   margin-bottom: 5%;
 }
 .processB{
-    background-color: #FF5252;
-    height: 20px;
+  background-color: #FF5252;
+  height: 20px;
 }
 #processDescription {
   font-family: 'Fjalla One', sans-serif;
@@ -300,23 +298,22 @@ font-family: 'Poppins', sans-serif;
   width: 120%;; 
   clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%); 
   margin-bottom: -2%;
-    border-radius: 40px;
-    cursor: pointer;
+  border-radius: 40px;
+  cursor: pointer;
 }
 #imgServicesB {
   width: 120%;; 
   clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%); 
   margin-bottom: -2%;
-    border-radius: 40px;
-    cursor: pointer;
+  border-radius: 40px;
+  cursor: pointer;
 }
 #imgServices:hover{
-filter: brightness(50%)
+  filter: brightness(50%)
 }
 #imgServicesB:hover{
-filter: brightness(50%)
+  filter: brightness(50%)
 }
-
 .column58 {
   content: "";
   display: table;
@@ -325,7 +322,7 @@ filter: brightness(50%)
 .columnType {
   float: left;
   width: 50%;
-        height: 250px;
+  height: 250px;
 }
 #column59 {
   margin-top: 2%;
@@ -345,7 +342,7 @@ filter: brightness(50%)
 }
 #titleDescription, #titleDescriptionBot {
   font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #titleDescription {
   text-align: left;
@@ -362,16 +359,15 @@ filter: brightness(50%)
    margin-top: 4%;
    text-align: left;
    margin-right: 20%;
-    font-family: 'Poppins', sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 #titleVehicle3, #titleVehicle4 {
    font-family: 'Poppins', sans-serif;
 }
 #imgCars1, #imgCars2, #imgCars3, #imgCars4  {
   float: right;
-    padding-top: 20px;
+  padding-top: 20px;
 }
-
 #columnType1, #columnType4 {
   background: red;
   color: white;
@@ -547,7 +543,7 @@ padding-bottom: 40px;
   width: 10%;
   margin-bottom: 0%;
   padding: 0.2%;
-    border: none;
+  border: none;
   background-color: white;
   border-radius: 20%;
 }
@@ -566,7 +562,7 @@ padding-bottom: 40px;
   font-weight: bold;
   position: relative; 
   font-family: 'Poppins', sans-serif;
-border-radius: 10px;
+  border-radius: 10px;
 }
 .collapsible:after {
     content: '\002B';
@@ -578,16 +574,16 @@ border-radius: 10px;
 }
 
 .active, .collapsible:hover, .collapsible2:hover {
-  border-color: white;
-  background-color: white;
-  color: red;
+    border-color: white;
+    background-color: white;
+    color: red;
     border-bottom-left-radius:0px;
     border-bottom-right-radius:0px;
 }
 
 .active:after {
-  color: red;
-  content: "\2212";
+    color: red;
+    content: "\2212";
     font-size: 50px;
     top: -8px;
     left: 90%;
@@ -614,13 +610,12 @@ p2{
     font-weight: normal;
 }
 #imagesDivText{
-    background-image: url("images/broundtest.png");
+    background-image: url("images/broundtest.webp");
     height: 30vw;
-      background-repeat: no-repeat;
-  background-size: 80%;
+    background-repeat: no-repeat;
+    background-size: 80%;
     background-position-x:0%;
 }
 .goUWxp,.dUbGiH,.bkDXRj {
-font-family: 'Poppins', sans-serif;
-
+    font-family: 'Poppins', sans-serif;
 }
