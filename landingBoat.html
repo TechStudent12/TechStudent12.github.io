@@ -23,6 +23,30 @@
 <link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="footer.css">
 <link rel="stylesheet" href="home.css">
+    <script>
+     window.onload = function() {
+          document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+          var nameVal = document.getElementById("inputName").value;
+          var emailVal = document.getElementById("inputEmail").value;
+          var messageVal = document.getElementById("textareaMessage").value;
+          var templateParams = {
+              from_name: nameVal,
+              message_from: messageVal,
+              email_from: emailVal 
+           };
+           emailjs.send('service_zys414i', 'template_kdy2zma', templateParams)
+               .then(function(response) {
+                      document.getElementById("inputName").value = "";
+                      document.getElementById("inputEmail").value = "";
+                      document.getElementById("textareaMessage").value = "";
+                      console.log('SUCCESS!', response.status, response.text);
+                }, function(error) {
+                      console.log('FAILED...', error);
+                });
+            });
+        }
+    </script>
     <style> 
         nav{
             box-shadow: none;
@@ -212,11 +236,13 @@
             </div>
             <div class="quote">
                 <h2 style="color:#FF5A5A; padding-left:2%; font-size:25px;">GET A FREE QUOTE</h2>
-                <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..."></div>
-                <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..."></div>
-                <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..."></textarea></div>
-                <button id="buttonSend" type="submit" style="font-family: 'Poppins', sans-serif;">SEND</button>
-               </div>
+                <form id="contact-form">
+                    <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..."></div>
+                    <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..."></div>
+                    <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..."></textarea></div>
+                    <button id="buttonSend" type="submit" style="font-family: 'Poppins', sans-serif;">SEND</button>
+                </form>
+            </div>
         </div>
     </div>
     <div class = "box" style="background-color:white; height:50vh">
