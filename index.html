@@ -285,6 +285,23 @@
 	margin-bottom: 0% !important;
     }
 }
+#mce-EMAIL {
+   border: 4px solid white;
+   outline: none;
+}
+#mce-EMAIL:focus {
+   border: 4px solid red;
+   outline: none;
+}
+.button {
+   border: 2px solid white;
+   cursor: pointer;
+}
+.button:hover {
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+}
 </style>
 </head>
 <body onload="incNbr()" style="overflow-x: hidden;">
@@ -537,10 +554,15 @@
       </center>
   </div>
   <div class="column" id="column3" style="background-color: #080808;">
-    <h2 id="columnH2" style="margin-top: 3.5%; margin-bottom: 3.5%;">STAY CONNECTED</h2>
+    <h2 id="columnH2" style="margin-top: 2.5%; margin-bottom: 2.5%;">STAY CONNECTED</h2>
     <p style="margin-bottom: 5%; width: 90%;">Sign up with our newsletter to stay connected and to receive deals and promotions on vehicle detailing through Mobile Detail Solutions.</p>
-    <form id="contact_form_footer" style="width: 100%;">
-	    <input type="email" id="emailInput" name="email" placeholder="Enter your email..." style="float: left;"><button type="submit" id="submitSignup">SIGN UP</button>
+    <form action="https://mobiledetailsolutions.us1.list-manage.com/subscribe/post?u=305585c2eed4e8b09eb71142e&amp;id=cb501596e2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" style="width: 100%;">
+	    <div id="mc_embed_signup_scroll" style="width: 100%;">
+		    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="" style="width: 90%; margin-bottom: 2%; padding: 2%; margin-top: -4%;">
+		    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_305585c2eed4e8b09eb71142e_cb501596e2" tabindex="-1" value=""></div>
+		    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="padding: 1.5%; outline: none;"></div>
+	    </div>
     </form>
   </div>
 </div>
