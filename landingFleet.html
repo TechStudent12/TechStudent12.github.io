@@ -181,10 +181,44 @@
             border-radius: 0px;
             border: 4px solid red;
         }
+        .topnav {
+          overflow: hidden;
+          position: relative;
+        }
+        .topnav #myLinks {
+          display: none;
+        }
+        .topnav a {
+          color: white;
+          text-decoration: none;
+          font-size: 17px;
+          display: block;
+          font-weight: bold;
+          font-family: 'Poppins', sans-serif;
+        }
+        .topnav a.icon {
+          background: black;
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav a:hover {
+          background-color: white;
+          color: red;
+        }
+        @media screen and (max-width: 600px) {
+            #boxTop1, #boxBot1, #boxMiddle1 {
+                display: none !important;
+            }
+            #boxTop2, #boxBot2, #boxMiddle2 {
+                display: block !important;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class = "box" style="background-color: #f9484a; background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);">
+    <div class="box" id="boxTop1" style="background-color: #f9484a; background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); display: block;">
     <nav style="background-color: transparent;">
             <a id="imageLogo" href="index"><img src="images/sLogo.webp" id="logo" alt="Mobile Detail Solutions Logo"></a>
             <ul>
@@ -200,7 +234,26 @@
             <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
         </div>
     </div>
-    <div class = "box" style="background-color:white;">
+    <div class="box" id="boxTop2" style="background-color: #f9484a; background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); display: none;">
+        <div class="topnav" style="background: transparent; width: 100%; padding-right: 0; padding-left: 0;">
+              <a id="imageLogo" href="index"><img src="images/sLogo.webp" id="logo" alt="Mobile Detail Solutions Logo"></a>
+              <div id="myLinks" style="display: none;margin-top: 10%;width: 100%;padding: 0px;z-index: 99999;position: relative;margin-bottom: -5%;">
+                <a href="index">HOME</a>
+                <a href="ContactMDS">CONTACT-US</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="background-color: transparent; margin-top: 4%;">
+                <i id="bars" class="fa fa-bars" style="float: right; display: block; color: white;"></i>
+                <i id="times" class="fa fa-times" aria-hidden="true" style="float: right; display: none; color: white;"></i>
+              </a>
+        </div>
+        <div class="main" style="padding-top:140px;">
+            <h1 style="font-size: 35px; padding: 2%;">TAKING CARE OF YOUR FLEET HAS NEVER BEEN THIS EASY</h1>
+            <img src="images/landing/main.webp" alt="main" style="width: 100vw;">
+            <h2>HASSEL FREE DETAILING, WE COME TO YOU!</h2>
+            <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+        </div>
+    </div>
+    <div class="box" id="boxMiddle1" style="background-color:white;display: block;">
         <h1 style="color:red; padding-top:40px;">A VARIETY OF SERVICES</h1>
         <div class = "all">
             <div class = "item">
@@ -239,7 +292,46 @@
             </div>
         </div>
     </div>
-    <div class="box" style="background-color: #f9484a; background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); padding-top:40px;">
+    <div class="box" id="boxMiddle2" style="background-color:white;height: 280vh; display: none;">
+        <h1 style="color:red; padding-top:40px;">A VARIETY OF SERVICES</h1>
+        <div class="all" style="width: 100%; display: block;">
+            <div class="item" style="width: 100%; display: block;">
+                <h2 style="color:red;">FLEET DETAILING</h2>
+                    <div class="buttons" style="width: 100%; justify-content: center;">
+                        <div style="padding: 20px;height:20px;text-align: center;justify-content: center;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsFleet" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/fleet.webp" alt="main" style="width: 100%;padding-top:40px;margin-bottom: 10%;">
+            </div>
+            <div class="item">
+                <h2 style="color:red;">METAL POLISHING</h2>
+                    <div class="buttons">
+                        <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsMetalPolishing" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/metal.webp" alt="main" style="width: 100%;padding-top:40px;">
+            </div>
+        </div>
+        <div class="all" style="display: block;padding-bottom:40px;width: 100%;">
+            <div class="item" style="display: block; width: 100%;">
+                <h2 style="color:red;">PRESSURE WASHING</h2>
+                    <div class="buttons" style="justify-content: center;">
+                        <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsPressureWashing" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/wash.webp" alt="main" style="width: 100%;padding-top:40px;">
+            </div>
+            <div class="item">
+                <h2 style="color:red;">DECAL REMOVAL</h2>
+                    <div class="buttons">
+                        <div style="padding: 20px;height:20px;"><a href="https://square.site/book/DV3264NEF0DKW/mobile-detail-solutions-ottawa-on" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">BOOK NOW</a></div>
+                        <div style="padding: 20px;height:20px;"><a href="MDSProductsDecalRemoval" style="border-radius: 30px;background-color: #FF5A5A ;color: white; padding: 15px; text-decoration: none;font-family: 'Poppins', sans-serif;font-weight: 900;">LEARN MORE</a></div>
+                    </div>
+                <img src="images/landing/decal.webp" alt="main" style="width: 100%;padding-top:40px;">
+            </div>
+        </div>
+    </div>
+    <div class="box" id="boxBot1" style="background-color: #f9484a; background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%); padding-top:40px; display: block;">
         <div class = "main">
             <h1>WHAT ARE YOU WAITING FOR?</h1>
             <h1>JOIN OUR NEWSLETTER TO SAVE EVEN MORE!</h1>
@@ -273,5 +365,52 @@
             <img src="images/logo.webp" alt="main" style="width:180px; cursor: no-drop;" alt="Mobile Detail Solutions Logo">
         </div>
     </div>
+    <div class="box" id="boxBot2" style="background-color: #f9484a;background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);padding-top:40px;height: 140vh; display: none;">
+        <div class="main">
+            <h1 style="font-size: 35px; padding: 4%;">WHAT ARE YOU WAITING FOR? JOIN OUR NEWSLETTER TO SAVE EVEN MORE!</h1>
+            <div id="mc_embed_signup" style="width: 90%;">
+                            <form action="https://mobiledetailsolutions.us1.list-manage.com/subscribe/post?u=305585c2eed4e8b09eb71142e&amp;id=cb501596e2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" style="width: 100%;">
+                            <div id="mc_embed_signup_scroll" style="text-align: center;">
+
+                            <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
+                                <label for="mce-EMAIL" style="font-size: 25px; color: white; font-family: 'Anton', sans-serif;">Email Address </label>
+                                <input type="email" value="" placeholder="Enter your email..." name="EMAIL" class="required email" id="mce-EMAIL" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                            </div>
+                            <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
+                                <label for="mce-FNAME" style="font-size: 25px; color: white; font-family: 'Anton', sans-serif;">First Name </label>
+                                <input type="text" value="" placeholder="Enter your first name..." name="FNAME" class="" id="mce-FNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                            </div>
+                            <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
+                                <label for="mce-LNAME" style="font-size: 25px; color: white; margin-top: 4%; font-family: 'Anton', sans-serif;">Last Name </label>
+                                <input type="text" value="" name="LNAME" placeholder="Enter your last name..." class="" id="mce-LNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                 <div class="response" id="mce-error-response" style="display:none"></div>
+                                 <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_305585c2eed4e8b09eb71142e_cb501596e2" tabindex="-1" value=""></div>
+                            <div class="clear" style="margin-bottom: 4%;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+             </div>
+        </div>
+        <div class="bottom" style="margin-top: 2%;">
+            <img src="images/logo.webp" alt="main" style="width:180px; cursor: no-drop;">
+        </div>
+    </div>
+    <script>
+          function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            document.getElementById("times").style.display = "none";
+            document.getElementById("bars").style.display = "block";
+          } else {
+            x.style.display = "block";
+            document.getElementById("times").style.display = "block";
+            document.getElementById("bars").style.display = "none";
+          }
+        }
+    </script>
 </body>
 </html>
