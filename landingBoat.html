@@ -216,7 +216,7 @@
     </style>  
 </head>
 <body>
-    <div class="box" style="background-color: #ee9617;background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);height: 115vh;">
+    <div class="box" id="boxTop1" style="background-color: #ee9617;background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);height: 115vh;  display: block;">
     <nav style="background-color: transparent;">
             <a id="imageLogo" href="index"><img src="images/sLogo.webp" id="logo" alt="Mobile Detail Solutions Logo"></a>
             <ul>
@@ -229,6 +229,34 @@
                 <h1 style="text-align: left;">MAKING YOUR VEHICLES LOOK THEIR BEST</h1>
                 <br>
                 <h1 style="text-align: left;">SO YOU CAN ENJOY YOUR VACATION!</h1> 
+            </div>
+            <div class="quote" style="height: 500px; float: left;"> 
+                <form id="contact-form" style="width: 100%;"><h2 style="color:#FF5A5A; padding-left:2%; font-size:25px;">GET A FREE QUOTE!</h2>
+                    <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..."></div>
+                    <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..."></div>
+                    <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..."></textarea></div>
+                    <button id="buttonSend" type="submit" style="font-family: 'Poppins', sans-serif; border">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="boxTop2" style="background-color: #ee9617;background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);height: 130vh; display: none;">
+        <nav style="background-color: transparent;">
+          <a id="imageLogo2" href="index" style="cursor: default;"><img src="images/sLogo.webp" id="logo" style="cursor: pointer;" alt="Mobile Detail Solutions Logo"></a>
+          <div id="myLinks" style="margin-top: 2%;">
+            <a href="index" style="font-family: 'Poppins', sans-serif;">HOME</a>
+            <a href="ContactMDS" class="active2" style="font-family: 'Poppins', sans-serif; color: white; cursor: no-drop;">CONTACT US</a>
+          </div>
+          <button class="icon" onclick="myFunction()" style="color: red; background: transparent; padding: 20px; font-size: 20px; border: none; outline: none; cursor: pointer;">
+            <i id="bars" class="fa fa-bars" style="display: block;"></i>
+            <i id="times" class="fa fa-times" aria-hidden="true" style="display: none;"></i>
+          </button>
+        </nav>
+        <div class="thing">
+            <div class="main" style="padding-top:100px;">
+                <h1 style="text-align: center;">MAKING YOUR VEHICLES LOOK THEIR BEST SO YOU CAN ENJOY YOUR VACATION!</h1>
+                <br>
+                 
             </div>
             <div class="quote" style="height: 500px; float: left;"> 
                 <form id="contact-form" style="width: 100%;"><h2 style="color:#FF5A5A; padding-left:2%; font-size:25px;">GET A FREE QUOTE!</h2>
@@ -348,5 +376,19 @@
             <img src="images/logo.webp" alt="main" style="width:180px; cursor: no-drop;">
         </div>
     </div>
+    <script>
+          myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            document.getElementById("times").style.display = "none";
+            document.getElementById("bars").style.display = "block";
+          } else {
+            x.style.display = "block";
+            document.getElementById("times").style.display = "block";
+            document.getElementById("bars").style.display = "none";
+          }
+        }
+    </script>
 </body>
 </html>
