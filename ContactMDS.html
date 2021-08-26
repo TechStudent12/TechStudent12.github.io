@@ -53,21 +53,6 @@
 		      console.log('FAILED...', error);
 		});
             });
-	    /*document.getElementById('contact_form_footer').addEventListener('submit', function(event) {
-                event.preventDefault();
-		var emailVal2 = document.getElementById("emailInput").value;
-                var templateParams = {
-		    from_email: emailVal2
-		};
-		console.log(templateParams);
-		emailjs.send('service_zys414i', 'template_yvs550v', templateParams)
-		    .then(function(response) {
-		      document.getElementById("emailInput").value = "";
-		      console.log('SUCCESS!', response.status, response.text);
-		    }, function(error) {
-		      console.log('FAILED...', error);
-		});
-            });*/
         }
 	document.onreadystatechange = function () {
 	  var state = document.readyState
