@@ -31,23 +31,6 @@
         })();
  </script>
  <script type="text/javascript">
-        window.onload = function() {
-	    document.getElementById('contact_form_footer').addEventListener('submit', function(event) {
-                event.preventDefault();
-		var emailVal2 = document.getElementById("emailInput").value;
-                var templateParams = {
-		    from_email: emailVal2
-		};
-		console.log(templateParams);
-		emailjs.send('service_zys414i', 'template_yvs550v', templateParams)
-		    .then(function(response) {
-		      document.getElementById("emailInput").value = "";
-		      console.log('SUCCESS!', response.status, response.text);
-		    }, function(error) {
-		      console.log('FAILED...', error);
-		});
-            });
-        }
 	document.onreadystatechange = function () {
 	var state = document.readyState
 	if (state == 'complete') {
@@ -508,11 +491,11 @@
   </div>
 </div>
 <div class="row" id="rowFooter2" style="display: none;">
-  <div class="column" id="column1" style="background-color: #080808;width: 100%;">
+  <div class="column" id="column1" style="background-color: #080808;width: 100%;border: 2px solid #080808;margin-bottom: -0.5%;">
     <center><img src="../images/MDS_logo2.webp" id="logo2" style="width: 200px" alt="Mobile Detail Solutions Logo"></center>
           <div><p id="bannerIcon2"><a href="https://www.instagram.com/mobiledetailsolutions/" style="text-decoration: none; outline: none;"><i id="instagram3" class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;<a href="https://www.facebook.com/MobileDetailSolutionss" style="text-decoration: none; outline: none;"><i id="facebook3" class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;<a href="https://www.linkedin.com/company/mobile-detail-solutions/" style="text-decoration: none; outline: none;"><i id="linkedin3" class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCxF7IJJaNWc9cWQjcRRoLKw" style="text-decoration: none; outline: none;"><i id="youtube3" class="fa fa-youtube"></i></a></p></div>
   </div>
-  <div class="column" id="column2" style="background-color: #080808;width: 100%;">
+  <div class="column" id="column2" style="background-color: #080808;width: 100%;border: 2px solid #080808;margin-bottom: -0.5%;">
     <center><div class="column4" style="float: left;/* text-align: left; */"><h2 id="linkTwo" style="margin-top: 5%; margin-bottom: 5%;"><a href="MDSAbout" style="text-decoration: none;">About</a></h2>
         <p id="linkOne" style="margin-bottom: 3%; width: 90%;"><a href="MDSGallery" style="text-decoration: none;">Gallery</a></p>
         <p id="linkOne" style="margin-bottom: 3%; width: 90%;"><a href="landingFleet" style="text-decoration: none;">Fleet Detailing</a></p>
@@ -528,11 +511,13 @@
     <p id="linkOne" style="margin-bottom: 3%; width: 90%;"><a href="MDSProductsCarpets" style="text-decoration: none;">Carpets</a></p></div>
       </center>
   </div>
-  <div class="column" id="column3" style="background-color: #080808;width: 100%;height: 280px;">
+  <div class="column" id="column3" style="background-color: #080808;width: 100%;height: 280px;border: 2px solid #080808;margin-bottom: -0.5%;">
     <h2 id="columnH2" style="width: 100%;margin-top: 3.5%;margin-bottom: 3.5%;text-align: center;">STAY CONNECTED</h2>
     <p style="margin-bottom: 5%;width: 100%;text-align: center;">Sign up with our newsletter to stay connected and to receive deals and promotions on vehicle detailing through Mobile Detail Solutions.</p>
-    <form id="contact_form_footer" style="width: 100%;text-align: center;object-position: center;align-content: center;margin-left: 26%;">
-	    <input type="email" id="emailInput" name="email" placeholder="Enter your email..." style="float: left;align-content: center;padding: 9.8px;"><button type="submit" id="submitSignup" style="width: 43px; text-align: center;"><i class="fa fa-check" aria-hidden="true" style="text-align: center;"></i></button>
+    <form action="https://mobiledetailsolutions.us1.list-manage.com/subscribe/post?u=305585c2eed4e8b09eb71142e&amp;id=cb501596e2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" style="width: 100%;text-align: center;object-position: center;align-content: center;justify-content: center;">
+	    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required="" style="align-content: center;padding: 9px;">
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_305585c2eed4e8b09eb71142e_cb501596e2" tabindex="-1" value=""></div>
+	    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="width: 43px;text-align: center;background-color: transparent;outline: none;color: white;border: none;margin: auto;font-size: 20px;margin-top: 3%;"><i class="fa fa-check" aria-hidden="true" style="text-align: center;"></i></button>
     </form>
   </div>
 </div>
