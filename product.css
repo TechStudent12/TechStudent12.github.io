@@ -1129,4 +1129,7 @@ p2{
 .fa-check:hover {
   color: red;
 }
+.fa-check{
+  color: white;
+}
 /* END */
