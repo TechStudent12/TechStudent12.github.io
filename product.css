@@ -1126,4 +1126,7 @@ p2{
     font-style: normal;
     font-weight: normal;
 }
+.fa-check:hover {
+  color: red;
+}
 /* END */
