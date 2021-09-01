@@ -272,6 +272,12 @@ padding: 15px;
   height: 75vh;
   border-radius: 10px;
 }
+.fa-check:hover {
+  color: red;
+}
+.fa-check{
+  color: white;
+}
 
 /* END */
 
