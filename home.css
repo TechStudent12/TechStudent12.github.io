@@ -99,6 +99,9 @@ font-family: 'Poppins', sans-serif;
  font-size: 14px;
  color: grey;
 }
+#bottomp {
+  margin-left: 0.5%;
+}
 #reviewAmount {
     display: flex;
     flex-direction: column;
