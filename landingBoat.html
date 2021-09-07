@@ -238,6 +238,17 @@
           background-color: white;
           color: red;
         }
+        .topnav #imageLogo #logo:hover {
+          cursor:pointer;
+          filter: sepia(100%);
+        }
+        .topnav #imageLogo:hover {
+          background-color: transparent;
+        }
+        .topnav .atag:hover {
+          background-color: white;
+          color: red;
+        }
         @media screen and (max-width: 799px) {
             #boxTop1, #boxBot1, #boxMiddle1 {
                 display: none !important;
@@ -275,7 +286,7 @@
     </div>
     <div class="box" id="boxTop2" style="background-color: #ee9617;background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);display: none;">
         <div class="topnav" style="background: transparent; width: 100%; padding-right: 0; padding-left: 0;">
-              <a id="imageLogo" href="index"><img src="images/sLogo.webp" id="logo" alt="Mobile Detail Solutions Logo"></a>
+              <a id="imageLogo" href="index"><img src="images/sLogo.webp" id="logo" alt="Mobile Detail Solutions Logo" style="z-index: 9999;"</a>
               <div id="myLinks" style="display: block;margin-top: 5%;width: 100%;padding: 0px;z-index: 99999;position: relative;margin-bottom: -5%;">
                 <a href="index">HOME</a>
                 <a href="ContactMDS">CONTACT-US</a>
