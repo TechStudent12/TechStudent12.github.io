@@ -27,7 +27,6 @@
   clear: both;
 }
 
-
 /* MAIN IMAGE */
 #mainBanner {
  font-size: 50px;
@@ -36,7 +35,7 @@
  margin-bottom: 2%;
 }
 #bannerName {
-    font-family: 'Fjalla One', sans-serif;
+ font-family: 'Fjalla One', sans-serif;
  font-size: 45px;
  color: red;
  padding: 30px;
@@ -50,7 +49,7 @@
  margin-bottom: 0%;
 }
 #bookNowAppoint, #contactUS {
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 10px;
     float: left;
     color: white;
@@ -85,7 +84,7 @@ font-family: 'Poppins', sans-serif;
 .newColumn1 p{
  font-size: 50px;
  color: #1b1b1b;
-font-family: 'Poppins', sans-serif;
+ font-family: 'Poppins', sans-serif;
  font-weight: bold;
 }
 #content2 {
@@ -100,8 +99,8 @@ font-family: 'Poppins', sans-serif;
  color: grey;
 }
 #reviewAmount {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 #bottomp2 {
  margin-bottom: 4%;
@@ -133,7 +132,6 @@ font-family: 'Poppins', sans-serif;
   font-size: 25px;
   margin-bottom: 8%;
 }
-
 
 /* Trusted By */
 #content3 {
