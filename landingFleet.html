@@ -203,9 +203,13 @@
           right: 0;
           top: 0;
         }
-        .topnav a:hover {
+        .topnav .atag:hover {
           background-color: white;
           color: red;
+        }
+        #logo:hover {
+          cursor:pointer;
+          filter: sepia(100%);
         }
         @media screen and (max-width: 799px) {
             #boxTop1, #boxBot1, #boxMiddle1 {
@@ -238,8 +242,8 @@
         <div class="topnav" style="background: transparent; width: 100%; padding-right: 0; padding-left: 0;">
               <a id="imageLogo" href="index"><img src="images/sLogo.webp" id="logo" alt="Mobile Detail Solutions Logo"></a>
               <div id="myLinks" style="display: none; margin-top: 10%; width: 100%; padding: 0px; z-index: 99999; position: relative; margin-bottom: -5%;">
-                <a href="index" style="font-weight: bold;">HOME</a>
-                <a href="ContactMDS" style="font-weight: bold;">CONTACT-US</a>
+                <a class="atag" href="index" style="font-weight: bold;">HOME</a>
+                <a class="atag" href="ContactMDS" style="font-weight: bold;">CONTACT-US</a>
               </div>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="background-color: transparent; margin-top: 3%;">
                 <i id="bars" class="fa fa-bars" style="float: right; display: block; color: white;"></i>
