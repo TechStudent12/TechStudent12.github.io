@@ -278,6 +278,12 @@ padding: 15px;
 .fa-check{
   color: white;
 }
+input[type=text]:focus:required:valid, input[type=email]:focus:required:valid, textarea:focus:required:valid {
+        border: 4px solid  green;
+}
+input[type=email]:required:invalid, input[type=text]:required:invalid, textarea:focus:required:invalid {
+        border: 4px solid red; 
+}
 
 /* END */
 
