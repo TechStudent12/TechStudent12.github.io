@@ -279,9 +279,9 @@
             </div>
             <div class="quote" style="float: left;position: absolute;width: 50%;"> 
                 <form id="contact-form" style="width: 100%;"><h2 style="color:#FF5A5A;padding-left:2%;font-size: 35px;padding-top:2%;">GET A FREE QUOTE!</h2>
-                    <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif;color:#FF5A5A;text-align: center;font-weight: 600;font-size: 20px;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..."></div>
-                    <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif;color:#FF5A5A;text-align: center;font-weight: 600;font-size: 20px;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..."></div>
-                    <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif;color:#FF5A5A;text-align: center;font-weight: 600;font-size: 20px;">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..."></textarea></div>
+                    <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif;color:#FF5A5A;text-align: center;font-weight: 600;font-size: 20px;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..." required></div>
+                    <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif;color:#FF5A5A;text-align: center;font-weight: 600;font-size: 20px;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..." required></div>
+                    <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif;color:#FF5A5A;text-align: center;font-weight: 600;font-size: 20px;">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..." required></textarea></div>
                     <button id="buttonSend" type="submit" style="font-family: 'Poppins', sans-serif; background: #FF5A5A;">Send</button>
                 </form>
             </div>
@@ -306,9 +306,9 @@
             </div>
             <div class="quote" style="width: 90%;display: block;margin-right: auto;margin-left: auto;"> 
                 <form id="contact-form" style="width: 100%;"><h2 style="color:#FF5A5A;padding-left:2%;font-size:25px;padding-top: 4%;">GET A FREE QUOTE!</h2>
-                    <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..."></div>
-                    <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..."></div>
-                    <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..."></textarea></div>
+                    <div id="nameDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Name</label><input id="inputName" type="text" name="name" placeholder="Enter your name..." required></div>
+                    <div id="emailDiv"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Email</label><input id="inputEmail" type="email" name="emailContact" placeholder="Enter your email..." required></div>
+                    <div id="messageDiv" style="padding-bottom: 20px;"><label style="font-family: 'Poppins', sans-serif; color:#FF5A5A; text-align: center; font-weight: 600;">Message</label><textarea id="textareaMessage" name="message" placeholder="Enter your message..." required></textarea></div>
                     <button id="buttonSend" type="submit" style="font-family: 'Poppins', sans-serif; background: #FF5A5A;">Send</button>
                 </form>
             </div>
@@ -364,15 +364,15 @@
 
                             <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
                                 <label for="mce-EMAIL" style="font-size: 25px; color: white; font-family: 'Anton', sans-serif;">Email Address </label>
-                                <input type="email" value="" placeholder="Enter your email..." name="EMAIL" class="required email" id="mce-EMAIL" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                                <input type="email" value="" placeholder="Enter your email..." name="EMAIL" class="required email" id="mce-EMAIL" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;" required>
                             </div>
                             <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
                                 <label for="mce-FNAME" style="font-size: 25px; color: white; font-family: 'Anton', sans-serif;">First Name </label>
-                                <input type="text" value="" placeholder="Enter your first name..." name="FNAME" class="" id="mce-FNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                                <input type="text" value="" placeholder="Enter your first name..." name="FNAME" class="" id="mce-FNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;" required>
                             </div>
                             <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
                                 <label for="mce-LNAME" style="font-size: 25px; color: white; margin-top: 4%; font-family: 'Anton', sans-serif;">Last Name </label>
-                                <input type="text" value="" placeholder="Enter your last name..." name="LNAME" class="" id="mce-LNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                                <input type="text" value="" placeholder="Enter your last name..." name="LNAME" class="" id="mce-LNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;" required>
                             </div>
                             <div id="mce-responses" class="clear">
                                  <div class="response" id="mce-error-response" style="display:none"></div>
@@ -396,15 +396,15 @@
                             <div id="mc_embed_signup_scroll" style="text-align: center;">
                             <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
                                 <label for="mce-EMAIL" style="font-size: 20px;color: white;font-family: 'Anton', sans-serif;">Email Address </label>
-                                <input type="email" value="" placeholder="Enter your email..." name="EMAIL" class="required email" id="mce-EMAIL" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                                <input type="email" value="" placeholder="Enter your email..." name="EMAIL" class="required email" id="mce-EMAIL" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;" required>
                             </div>
                             <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
                                 <label for="mce-FNAME" style="font-size: 20px;color: white;font-family: 'Anton', sans-serif;">First Name </label>
-                                <input type="text" value="" placeholder="Enter your first name..." name="FNAME" class="" id="mce-FNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                                <input type="text" value="" placeholder="Enter your first name..." name="FNAME" class="" id="mce-FNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;" required>
                             </div>
                             <div class="mc-field-group" style="margin-top: 4%; margin-bottom: 4%;">
                                 <label for="mce-LNAME" style="font-size: 20px;color: white;margin-top: 4%;font-family: 'Anton', sans-serif;">Last Name </label>
-                                <input type="text" value="" placeholder="Enter your last name..." name="LNAME" class="" id="mce-LNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;">
+                                <input type="text" value="" placeholder="Enter your last name..." name="LNAME" class="" id="mce-LNAME" style="font-size: 14px; padding: 4%; outline: none; width: 100%; margin-top: 2%;" required>
                             </div>
                             <div id="mce-responses" class="clear">
                                  <div class="response" id="mce-error-response" style="display:none"></div>
