@@ -93,30 +93,12 @@
  padding-bottom: 6%;
  width: 70%;
 }
-#bottomp, #bottomp2 {
- margin-top: 4%;
- font-size: 13px;
- color: grey;
-}
 #reviewAmount {
   display: flex;
   flex-direction: column;
 }
 #bottomp2 {
  margin-bottom: 4%;
-}
-@media screen and (max-width: 900px) {
-  #bottomp, #bottomp2 
-   margin-top: 4%;
-   font-size: 12px;
-   color: grey;
-  }
-  .newColumn1 #first,  .newColumn1 #second, .newColumn1 #third, .newColumn1 #reviewAmount {
-   font-size: 30px !important;
-  }
-  .newColumn1 p {
-    font-size: 30px;
-  }
 }
 #nexttoreviewAmount2 {
  border-right: none;
